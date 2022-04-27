@@ -1,0 +1,2197 @@
+{
+  "settings": {
+    "name": "MANAN",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise5",
+      "title": "Mobirise 5",
+      "styling": {
+        "primaryColor": "#6592e6",
+        "secondaryColor": "#ff6666",
+        "successColor": "#40b0bf",
+        "infoColor": "#47b5ed",
+        "warningColor": "#FFE161",
+        "dangerColor": "#ff9966",
+        "mainFont": "Jost",
+        "display1Font": "Jost",
+        "display1Size": 4.6,
+        "display2Font": "Jost",
+        "display2Size": 3,
+        "display5Font": "Jost",
+        "display5Size": 2,
+        "display7Font": "Jost",
+        "display7Size": 1.2,
+        "display4Font": "Jost",
+        "display4Size": 1.1,
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": [
+        "#6e2d2d",
+        "#ff3366",
+        "#25d366"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.6.5",
+    "siteFonts": [
+      {
+        "css": "'Jost', sans-serif",
+        "name": "Jost",
+        "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
+    "favicon": false,
+    "mbrsiteDomain": "ndmylwrf3i",
+    "imageResize": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "uniqCompNum": 35,
+    "versionPublish": "5.6.5",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@sticky)": {
+              ".navbar-dropdown": {
+                "position": "relative !important"
+              },
+              "& when (@transparent)": {
+                ".navbar-dropdown": {
+                  "position": "absolute !important"
+                }
+              }
+            },
+            "& when (@sticky)": {
+              "z-index": "1000",
+              "width": "100%",
+              "& when not (@transparent)": {
+                "position": "relative",
+                "min-height": "60px"
+              },
+              "nav.navbar": {
+                "position": "fixed"
+              }
+            },
+            ".dropdown-item:before": {
+              "font-family": "Moririse2 !important",
+              "content": "\"\\e966\"",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "transform": "scale(0, 1)",
+              "transition": "all 0.25s ease-in-out"
+            },
+            ".dropdown-menu": {
+              "padding": "0",
+              "border-radius": "4px",
+              "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)"
+            },
+            ".dropdown-item": {
+              "border-bottom": "1px solid #e6e6e6",
+              "&:hover, &:focus": {
+                "background": "@primaryColor !important",
+                "color": "white !important"
+              },
+              "&:hover span": {
+                "color": "white"
+              },
+              "&:first-child": {
+                "border-top-left-radius": "4px",
+                "border-top-right-radius": "4px"
+              },
+              "&:last-child": {
+                "border-bottom": "none",
+                "border-bottom-left-radius": "4px",
+                "border-bottom-right-radius": "4px"
+              }
+            },
+            ".nav-dropdown .link": {
+              "padding": "0 0.3em !important",
+              "margin": "0.667em 1em !important"
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem"
+            },
+            ".nav-link": {
+              "position": "relative"
+            },
+            ".container": {
+              "display": "flex",
+              "margin": "auto",
+              "& when not (@collapsed)": {
+                "@media (min-width: 992px)": {
+                  "flex-wrap": "nowrap"
+                }
+              }
+            },
+            ".iconfont-wrapper": {
+              "color": "@iconsColor !important",
+              "font-size": "1.5rem",
+              "padding-right": "0.5rem"
+            },
+            ".navbar-caption": {},
+            ".navbar-nav": {},
+            ".dropdown-menu, .navbar.opened": {
+              "background": "@menuBgColor !important"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-right": "0.5rem",
+                "vertical-align": "sub",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "70px",
+              "transition": "all 0.3s",
+              "border-bottom": "1px solid transparent",
+              "&:not(.navbar-short)": {},
+              "& when not (@transparent)": {
+                "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)",
+                "background": "@menuBgColor"
+              },
+              "& when (@transparent)": {
+                "position": "absolute",
+                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
+              },
+              "&.opened": {
+                "transition": "all 0.3s"
+              },
+              ".dropdown-item": {
+                "padding": "0.5rem 1.8rem"
+              },
+              ".navbar-logo img": {
+                "width": "auto"
+              },
+              ".navbar-collapse": {
+                "justify-content": "flex-end",
+                "z-index": "1"
+              },
+              "&.collapsed": {
+                "justify-content": "center",
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "41%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-right": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "40%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word",
+                  "padding-right": "2rem"
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "&.navbar-short": {
+                "min-height": "60px",
+                ".navbar-logo": {
+                  "img": {
+                    "height": "2.5rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "min-height": "60px",
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "min-height": "70px",
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "10px 0",
+              "transition": "all 0.3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center",
+              "min-width": "170px"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all 0.2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all 0.2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all 0.2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              },
+              "&:nth-child(2)": {
+                "transform": "rotate(45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(3)": {
+                "transform": "rotate(-45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": "0 1rem",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            ".icons-menu": {
+              "flex-wrap": "nowrap",
+              "display": "flex",
+              "justify-content": "center",
+              "padding-left": "1rem",
+              "padding-right": "1rem",
+              "padding-top": "0.3rem",
+              "text-align": "center"
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "70px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~\"+\" 2rem)",
+                "left": "-1rem"
+              }
+            }
+          },
+          "_name": "menu2",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu2\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                    'navbar-expand-lg':!collapsed,\n                    'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobiri.se\">\n                        <img src=\"../_images/logo.png\" alt=\"Mobirise Website Builder\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">My Website</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#header3-4\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">HOME&nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"page1.html#top\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">My Minecraft Server&nbsp;</a></li>\n                    \n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"page2.html#contacts1-n\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Contacts</a>\n                    </li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://www.instagram.com/mananrewri09/\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        Download Now</a>\n                </div>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "t4c3kGH1Df",
+          "_anchor": "menu2-5",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#e43f3f"
+            },
+            ".mbr-section-title": {
+              "color": "#ff6666"
+            }
+          },
+          "_name": "header3",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"7\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\" selected>Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mbr.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"text\" title=\"Fallback Image\" name=\"videoToImageOnMobile\" condition=\"overlay && bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\" video-to-image-on-mobile=\"{{videoToImageOnMobile}}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b><i>This is my first website&nbsp;</i></b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">This is first time i create a perfect website</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-success\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Free Download!</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t4c2bB6aEa",
+          "_anchor": "header3-4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "color": "#ff6666"
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"12\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://youtu.be/bmS2kGA_m6w\" selected>\n        </fieldset>\n        <input type=\"text\" title=\"Fallback Image\" name=\"videoToImageOnMobile\" condition=\"overlay && bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\" video-to-image-on-mobile=\"{{videoToImageOnMobile}}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>Thats not me 😂😂&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    You can arrange your articles with the Mobirise website design software.\n                </h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t4c5nV3b9R",
+          "_anchor": "content4-a",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "color": "#000000"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"text\" title=\"Fallback Image\" name=\"videoToImageOnMobile\" condition=\"overlay && bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\" video-to-image-on-mobile=\"{{videoToImageOnMobile}}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>About me&nbsp;</b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">My name is Manan.<br>I Live In Panipat,Haryana<br>I Want to become a CODER</h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t4c3UqS2P2",
+          "_anchor": "content4-6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            }
+          },
+          "_name": "content6",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content6\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        \n        <input type=\"color\" name=\"lineColor\" title=\"Color\" value=\"#6592e6\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <hr class=\"line\">\n                <p class=\"mbr-text align-center mbr-fonts-style my-4\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\"><i>My Future plans</i><br><i>IN FUTURE I AM GOING TO CREATE MY OWN MINECRAFT SERVER FOR MORE INFORMATION</i><br><i><a href=\"page1.html#menu2-f\" class=\"text-primary\">CLICK HERE</a><br></i><br><i><br></i></p>\n                <hr class=\"line\">\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t4c8J0fCat",
+          "_anchor": "content6-g",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_sourceTheme": "mobirise5",
+          "_styles": {
+            ".progress-container": {
+              "z-index": "20000",
+              "position": "fixed",
+              "width": "100%",
+              "height": "(@LineHeight * 1px)",
+              "background": "@BckColor",
+              "top": "(@TopLine * 1px)"
+            },
+            ".progress-bar": {
+              "height": "(@LineHeight * 1px)",
+              "background": "@Linecolor",
+              "width": "0%"
+            },
+            "& when (@Stickyzen2 = false)": {
+              ".sticky2": {
+                "position": "fixed",
+                "top": "0px",
+                "width": "100%"
+              }
+            },
+            "& when (@Stickyzen2)": {
+              ".sticky2": {
+                "position": "fixed",
+                "top": "(@TopLine2 * 1px)",
+                "width": "100%"
+              }
+            },
+            ".hidden": {
+              "display": "none"
+            },
+            "H10": {
+              "color": "#767676"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" mbr-id=\"_anchor\" class=\"_customHTML\">\n \n  \n     <mbr-parameters>\n<hr><header>Scroll Indicator</header>\n        \n       <input type=\"color\" title=\"Background Color\" name=\"BckColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Line Color\" name=\"Linecolor\" value=\"#000000\">\n       <input type=\"range\" title=\"Line Height\" name=\"LineHeight\" min=\"1\" max=\"15\" step=\"1\" value=\"5\">\n        <input type=\"range\" title=\"Top Position\" name=\"TopLine\" min=\"0\" max=\"300\" step=\"1\" value=\"0\">\n      <input type=\"checkbox\" title=\"Sticky\" name=\"Stickyzen2\" checked=\"\">\n       <input type=\"range\" title=\"Top Position 2\" name=\"TopLine2\" min=\"0\" max=\"300\" step=\"1\" value=\"0\" condition=\"Stickyzen2\">\n    </mbr-parameters> \n \n  <div class=\"progress-container\" id=\"myHeader\">\n    <div class=\"progress-bar\" id=\"myBar\"></div>\n  </div>      \n  \n<script type=\"text/javascript\">\nwindow.onscroll = function() {myFunction()};\nvar header = document.getElementById(\"myHeader\");\n// Get the offset position of the navbar\nvar sticky = header.offsetTop;\nfunction myFunction() {\n  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;\n  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;\n  var scrolled = (winScroll / height) * 100;\n  document.getElementById(\"myBar\").style.width = scrolled + \"%\";\n  \n   if (window.pageYOffset > sticky) {\n    header.classList.add(\"sticky2\");\n  } else {\n    header.classList.remove(\"sticky2\");\n  }\n  \n  \n}\n \n        \n</script>\n\n <div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <h10> <br><br><br><br><br><br>Scroll Indicator - Progress bar<br>\n        Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.<br><br><svg id=\"svg\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"150\" viewBox=\"0, 0, 400,383.33333333333337\"><g id=\"svgg\"><path id=\"path0\" d=\"M37.210 6.152 C 35.603 6.521,34.673 7.586,34.092 9.720 C 33.330 12.516,33.825 95.736,34.612 97.241 C 35.870 99.644,28.382 99.467,134.420 99.600 C 199.138 99.681,231.925 99.852,232.882 100.115 C 235.440 100.816,235.350 101.661,230.295 124.449 C 224.368 151.170,212.070 208.952,209.422 222.521 C 207.800 230.833,207.905 232.790,209.971 232.790 C 211.891 232.790,209.325 235.910,254.122 179.099 C 277.812 149.054,289.953 133.596,295.689 126.174 C 297.890 123.327,306.521 112.368,314.870 101.822 C 367.957 34.759,386.363 11.054,386.765 9.224 C 387.073 7.820,386.446 6.596,385.169 6.111 C 383.972 5.656,39.193 5.697,37.210 6.152 M382.917 8.569 C 384.519 9.741,380.855 14.580,323.489 87.057 C 313.389 99.818,299.260 117.766,292.092 126.942 C 279.051 143.636,265.977 160.258,245.456 186.236 C 239.439 193.853,229.856 206.001,224.162 213.231 C 210.292 230.840,210.188 230.897,212.490 219.587 C 217.028 197.295,227.371 148.754,232.598 125.216 C 237.896 101.359,238.065 99.524,235.099 97.991 C 234.120 97.484,228.193 97.405,188.034 97.358 C 75.294 97.227,37.576 96.911,36.978 96.092 C 36.161 94.974,36.161 10.490,36.978 9.373 C 37.513 8.642,38.883 8.626,116.843 8.435 C 301.952 7.984,382.171 8.024,382.917 8.569 M81.622 108.821 C 107.636 108.875,150.091 108.875,175.966 108.821 C 201.840 108.766,180.556 108.722,128.667 108.722 C 76.779 108.722,55.608 108.766,81.622 108.821 M177.885 157.718 C 177.182 158.404,174.020 162.244,170.860 166.251 C 167.700 170.259,164.939 173.732,164.724 173.970 C 164.509 174.207,161.918 177.468,158.965 181.217 C 156.012 184.965,150.834 191.512,147.459 195.767 C 144.084 200.021,139.856 205.359,138.063 207.629 C 129.342 218.668,112.627 239.779,108.533 244.926 C 107.162 246.650,103.624 251.125,100.671 254.870 C 97.718 258.615,93.156 264.369,90.533 267.657 C 87.910 270.944,79.126 282.263,71.012 292.809 C 62.899 303.356,50.820 318.802,44.170 327.133 C 28.112 347.253,23.297 353.336,21.093 356.284 C 20.566 356.990,18.921 359.133,17.439 361.046 C 6.762 374.827,3.520 379.694,4.240 380.859 C 4.652 381.526,352.012 381.883,353.760 381.218 L 354.749 380.843 354.547 336.442 C 354.330 288.424,354.421 291.066,352.956 290.282 C 351.831 289.680,309.260 289.563,226.846 289.934 C 183.386 290.130,157.086 289.826,155.238 289.106 C 153.350 288.370,153.375 288.079,156.655 272.483 C 157.410 268.897,158.183 265.187,158.374 264.238 C 159.208 260.094,161.885 247.419,162.221 246.021 C 162.651 244.231,164.430 235.954,166.258 227.229 C 166.966 223.854,167.895 219.453,168.324 217.450 C 168.753 215.446,169.619 211.390,170.249 208.437 C 170.879 205.484,171.843 200.997,172.391 198.466 C 172.938 195.935,173.542 193.087,173.734 192.138 C 173.925 191.189,174.694 187.478,175.444 183.893 C 181.253 156.107,181.424 154.270,177.885 157.718 M334.899 284.838 C 335.479 284.926,336.429 284.926,337.009 284.838 C 337.589 284.751,337.114 284.679,335.954 284.679 C 334.794 284.679,334.319 284.751,334.899 284.838 \" stroke=\"none\" fill=\"#b3b3b3\" fill-rule=\"evenodd\"></path><path id=\"path1\" d=\"M116.843 8.435 C 38.883 8.626,37.513 8.642,36.978 9.373 C 36.161 10.490,36.161 94.974,36.978 96.092 C 37.576 96.911,75.294 97.227,188.034 97.358 C 228.193 97.405,234.120 97.484,235.099 97.991 C 238.065 99.524,237.896 101.359,232.598 125.216 C 227.371 148.754,217.028 197.295,212.490 219.587 C 210.188 230.897,210.292 230.840,224.162 213.231 C 229.856 206.001,239.439 193.853,245.456 186.236 C 265.977 160.258,279.051 143.636,292.092 126.942 C 299.260 117.766,313.389 99.818,323.489 87.057 C 380.855 14.580,384.519 9.741,382.917 8.569 C 382.171 8.024,301.952 7.984,116.843 8.435 \" stroke=\"none\" fill=\"#4c4c4c\" fill-rule=\"evenodd\"></path><path id=\"path2\" d=\"M24.582 1.208 C 24.285 2.061,24.165 16.987,24.175 52.119 C 24.189 104.381,24.198 104.667,25.856 107.198 C 27.312 109.419,21.600 109.300,126.819 109.300 C 187.817 109.300,223.202 109.435,223.202 109.666 C 223.202 109.868,221.385 118.791,219.165 129.496 C 216.944 140.200,215.208 149.171,215.308 149.431 C 215.408 149.690,215.358 149.957,215.197 150.023 C 214.865 150.160,213.651 155.819,204.600 199.407 C 201.952 212.158,199.872 222.815,199.977 223.088 C 200.082 223.362,199.980 223.586,199.752 223.586 C 199.516 223.586,199.414 223.996,199.516 224.531 C 199.615 225.051,199.582 225.526,199.442 225.586 C 199.151 225.710,198.557 228.337,196.119 240.268 C 195.171 244.909,194.060 250.029,193.650 251.646 C 191.455 260.308,193.965 264.453,200.009 262.145 C 201.966 261.398,201.889 261.486,213.429 246.788 C 220.801 237.399,226.824 229.751,236.050 218.064 C 240.748 212.113,252.094 197.659,269.799 175.072 C 275.255 168.111,284.303 156.570,289.907 149.425 C 295.511 142.279,303.979 131.474,308.725 125.414 C 321.361 109.277,325.827 103.583,336.629 89.833 C 342.331 82.576,346.237 77.280,346.078 77.022 C 345.919 76.764,345.976 76.688,346.216 76.836 C 346.447 76.979,347.760 75.626,349.227 73.732 C 350.658 71.885,353.101 68.781,354.656 66.833 C 356.329 64.739,357.370 63.109,357.206 62.843 C 357.041 62.576,357.094 62.496,357.336 62.646 C 357.872 62.977,368.666 49.199,368.315 48.632 C 368.164 48.388,368.223 48.310,368.450 48.451 C 368.674 48.589,373.706 42.505,379.897 34.608 C 385.973 26.858,392.261 18.965,393.871 17.066 C 395.480 15.168,397.517 12.693,398.398 11.567 L 400.000 9.519 400.000 4.759 L 400.000 0.000 212.502 0.000 L 25.003 0.000 24.582 1.208 M385.169 6.111 C 386.446 6.596,387.073 7.820,386.765 9.224 C 386.363 11.054,367.957 34.759,314.870 101.822 C 306.521 112.368,297.890 123.327,295.689 126.174 C 289.953 133.596,277.812 149.054,254.122 179.099 C 209.325 235.910,211.891 232.790,209.971 232.790 C 207.905 232.790,207.800 230.833,209.422 222.521 C 212.070 208.952,224.368 151.170,230.295 124.449 C 235.350 101.661,235.440 100.816,232.882 100.115 C 231.925 99.852,199.138 99.681,134.420 99.600 C 28.382 99.467,35.870 99.644,34.612 97.241 C 33.825 95.736,33.330 12.516,34.092 9.720 C 34.673 7.586,35.603 6.521,37.210 6.152 C 39.193 5.697,383.972 5.656,385.169 6.111 M175.966 108.821 C 150.091 108.875,107.636 108.875,81.622 108.821 C 55.608 108.766,76.779 108.722,128.667 108.722 C 180.556 108.722,201.840 108.766,175.966 108.821 M180.735 144.991 C 179.413 145.394,178.766 146.116,171.634 155.164 C 166.035 162.266,160.321 169.481,152.304 179.573 C 148.329 184.577,145.792 188.088,145.958 188.357 C 146.118 188.615,146.070 188.703,145.844 188.563 C 145.295 188.224,144.060 189.684,144.413 190.256 C 144.585 190.533,144.541 190.624,144.307 190.478 C 143.770 190.147,136.792 198.920,137.142 199.485 C 137.301 199.742,137.247 199.823,137.013 199.678 C 136.474 199.345,127.972 210.042,128.323 210.610 C 128.476 210.857,128.426 210.944,128.208 210.810 C 127.996 210.679,125.945 212.939,123.650 215.832 C 121.355 218.726,116.830 224.412,113.595 228.469 C 110.061 232.902,107.824 236.025,107.991 236.295 C 108.151 236.554,108.103 236.641,107.877 236.502 C 107.327 236.162,106.092 237.623,106.445 238.194 C 106.613 238.465,106.574 238.562,106.354 238.426 C 106.145 238.297,104.765 239.694,103.288 241.531 C 96.608 249.837,76.645 275.196,70.771 282.838 C 67.204 287.478,62.325 293.824,59.929 296.939 C 57.436 300.180,55.688 302.790,55.842 303.039 C 55.996 303.289,55.941 303.369,55.712 303.227 C 55.170 302.893,54.322 303.975,54.676 304.549 C 54.843 304.818,54.798 304.908,54.569 304.766 C 54.020 304.427,52.785 305.888,53.138 306.459 C 53.307 306.733,53.266 306.827,53.039 306.686 C 52.524 306.368,45.925 314.778,46.261 315.323 C 46.416 315.573,46.348 315.638,46.095 315.482 C 45.595 315.173,22.023 344.549,22.104 345.380 C 22.133 345.675,22.027 345.837,21.868 345.738 C 21.392 345.444,20.226 346.987,20.539 347.494 C 20.712 347.773,20.668 347.862,20.431 347.716 C 20.071 347.493,14.984 353.821,7.143 364.244 C 5.466 366.473,4.298 368.371,4.451 368.618 C 4.610 368.875,4.551 368.949,4.308 368.799 C 4.071 368.653,3.080 369.715,1.982 371.294 L 0.069 374.044 0.025 378.776 L -0.020 383.509 180.335 383.509 L 360.690 383.509 360.580 337.776 C 360.460 288.005,360.498 288.865,358.312 286.446 C 355.732 283.591,359.250 283.754,301.092 283.791 C 272.531 283.809,249.028 283.908,248.862 284.010 C 247.895 284.608,161.482 283.949,160.872 283.340 C 160.729 283.196,161.071 280.888,161.632 278.211 C 162.193 275.534,162.558 273.098,162.443 272.798 C 162.327 272.497,162.365 272.333,162.526 272.433 C 162.687 272.532,163.297 270.255,163.881 267.371 C 164.465 264.488,167.099 252.044,169.734 239.719 C 172.369 227.393,174.442 217.093,174.340 216.829 C 174.239 216.565,174.296 216.294,174.468 216.228 C 174.932 216.048,176.895 206.412,176.573 205.891 C 176.400 205.611,176.462 205.545,176.738 205.716 C 177.004 205.880,177.181 205.740,177.181 205.367 C 177.181 205.025,178.123 200.312,179.274 194.894 C 183.691 174.105,185.667 164.276,185.737 162.744 C 185.777 161.869,185.963 161.247,186.149 161.360 C 186.336 161.474,186.409 161.024,186.312 160.361 C 186.214 159.699,186.256 159.156,186.405 159.156 C 186.650 159.156,187.185 156.010,187.710 151.486 C 188.291 146.478,185.225 143.623,180.735 144.991 M180.249 158.438 C 180.249 160.249,178.966 167.046,175.444 183.893 C 174.694 187.478,173.925 191.189,173.734 192.138 C 173.542 193.087,172.938 195.935,172.391 198.466 C 171.843 200.997,170.879 205.484,170.249 208.437 C 169.619 211.390,168.753 215.446,168.324 217.450 C 167.895 219.453,166.966 223.854,166.258 227.229 C 164.430 235.954,162.651 244.231,162.221 246.021 C 161.885 247.419,159.208 260.094,158.374 264.238 C 158.183 265.187,157.410 268.897,156.655 272.483 C 153.375 288.079,153.350 288.370,155.238 289.106 C 157.086 289.826,183.386 290.130,226.846 289.934 C 309.260 289.563,351.831 289.680,352.956 290.282 C 354.421 291.066,354.330 288.424,354.547 336.442 L 354.749 380.843 353.760 381.218 C 352.012 381.883,4.652 381.526,4.240 380.859 C 3.520 379.694,6.762 374.827,17.439 361.046 C 18.921 359.133,20.566 356.990,21.093 356.284 C 23.297 353.336,28.112 347.253,44.170 327.133 C 50.820 318.802,62.899 303.356,71.012 292.809 C 79.126 282.263,87.910 270.944,90.533 267.657 C 93.156 264.369,97.718 258.615,100.671 254.870 C 103.624 251.125,107.162 246.650,108.533 244.926 C 112.627 239.779,129.342 218.668,138.063 207.629 C 139.856 205.359,144.084 200.021,147.459 195.767 C 150.834 191.512,156.012 184.965,158.965 181.217 C 161.918 177.468,164.509 174.207,164.724 173.970 C 164.939 173.732,167.700 170.259,170.860 166.251 C 179.198 155.678,180.249 154.803,180.249 158.438 M337.009 284.838 C 336.429 284.926,335.479 284.926,334.899 284.838 C 334.319 284.751,334.794 284.679,335.954 284.679 C 337.114 284.679,337.589 284.751,337.009 284.838\" stroke=\"none\" fill=\"#fafafa\" fill-rule=\"evenodd\"></path></g></svg><br><br><br></h10>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_anchor": "design-block-x",
+          "_isUserblock": true,
+          "_cid": "t4cttGeDI6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "input, textarea, button, select, a": {
+              "-webkit-tap-highlight-color": "rgba(0, 0, 0, 0)"
+            },
+            ".wrap": {
+              "position": "fixed",
+              "display": "flex",
+              "flex-wrap": "wrap",
+              "justify-content": "center",
+              "align-items": "center",
+              "width": "100%",
+              "bottom": "50",
+              "right": "0",
+              "padding-right": "20px",
+              "background-color": "@barColorSelect",
+              "z-index": "2",
+              "visibility": "visible"
+            },
+            ".copyright": {
+              "position": "fixed",
+              "z-index": "1",
+              "visibility": "visible",
+              "margin-left": "10px",
+              "left": "0",
+              "padding-left": "20px"
+            },
+            "@media (min-width: 768px)": {
+              ".wrap": {
+                "justify-content": "flex-end"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".wrap": {
+                "justify-content": "space-around",
+                "padding-right": "0px"
+              },
+              ".copyright": {
+                "visibility": "hidden"
+              }
+            },
+            ".item": {
+              "border-radius": "50%",
+              "font-size": "30px",
+              "font-height": "100%",
+              "text-align": "center",
+              "vertical-align": "middle",
+              "padding": "10px",
+              "margin-top": "10px",
+              "margin-left": "5px",
+              "margin-right": "5px",
+              "margin-bottom": "10px"
+            },
+            ".hidden": {
+              "display": "none"
+            },
+            "& when (@preview)": {
+              ".wrap": {
+                "visibility": "hidden",
+                "z-index": "0",
+                "display": "block !important"
+              },
+              ".copyright": {
+                "visibility": "hidden"
+              }
+            },
+            ".show": {
+              "visibility": "visible !important",
+              "bottom": "0"
+            },
+            "& when not (@barColor)": {
+              ".wrap": {
+                "background-color": "transparent !important"
+              },
+              ".mbr-section-subtitle": {
+                "visibility": "hidden"
+              }
+            },
+            "& when not (@copyright)": {
+              ".mbr-section-subtitle": {
+                "visibility": "hidden"
+              }
+            },
+            "& when (@transparent)": {
+              "@media (max-width: 768px)": {
+                ".wrap": {
+                  "background-color": "transparent !important"
+                }
+              }
+            },
+            ".mbr-section-subtitle": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section data-bs-version=\"5.1\" group=\"Footers\">\n\n<mbr-parameters>\n<input type=\"checkbox\" title=\"Hide in editor\" name=\"preview\">\n<input type=\"range\" inline title=\"Buttons\" name=\"items\" min=\"1\" max=\"5\" value=\"1\" step=\"1\">\n<input type=\"color\" title=\"Bg Button 1\" name=\"bgColor5\" value=\"#e43f3f\" condition=\"items > 0\">\n<input type=\"color\" title=\"Bg Button 2\" name=\"bgColor4\" value=\"#0084ff\" condition=\"items > 1\">\n<input type=\"color\" title=\"Bg Button 3\" name=\"bgColor3\" value=\"#3b5999\" condition=\"items > 2\">\n<input type=\"color\" title=\"Bg Button 4\" name=\"bgColor2\" value=\"#d93175\" condition=\"items > 3\">\n<input type=\"color\" title=\"Bg Button 5\" name=\"bgColor1\" value=\"#55acee\" condition=\"items > 4\">\n<input type=\"checkbox\" title=\"Bar Color\" name=\"barColor\" checked>\n<input type=\"color\" title=\"Select\" name=\"barColorSelect\" value=\"#1e2228\" condition=\"barColor == true\">\n<input type=\"checkbox\" title=\"Transparent in mobile\" name=\"transparent\" condition=\"barColor == true\">\n<input type=\"checkbox\" title=\"Show Copyright\" name=\"copyright\" condition=\"barColor == true\" checked>\n</mbr-parameters>\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:4rem; color: #ffffff; background-color:#000000;\">Footer Bar 🡇 You can hide in editor ⚙ to avoid overlap</div>\n\n<div mbr-class=\"{'show': isPublish}\" class=\"wrap\">\n\n<h3 data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style copyright\" mbr-theme-style=\"display-7\">Coded with ❤ by <a href=\"https://instagram.com/mananrewri09\" target=\"_blank\">Manan</a> ©2022 </h3>\n\n<a mbr-icon class=\"item mbr-iconfont socicon-twitter socicon\" target=\"_blank\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255); background-color:{{bgColor1}}\" href=\"#\" mbr-if=\"items > 4\"></a>\n\n<a mbr-icon class=\"item mbr-iconfont socicon-instagram socicon\" target=\"_blank\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255); background-color:{{bgColor2}}\" href=\"#\" mbr-if=\"items > 3\"></a>\n\n<a mbr-icon class=\"item mbr-iconfont socicon-facebook socicon\" target=\"_blank\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255); background-color:{{bgColor3}}\" href=\"#\" mbr-if=\"items > 2\"></a>\n\n<a mbr-icon class=\"item mbr-iconfont socicon-messenger socicon\" target=\"_blank\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255); background-color:{{bgColor4}}\" href=\"#\" mbr-if=\"items > 1\"></a>\n\n<a mbr-icon class=\"item mbr-iconfont socicon-instagram socicon\" target=\"_blank\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255); background-color:{{bgColor5}}\" href=\"https://instagram.com/mananrewri09\" mbr-if=\"items > 0\"></a>\n\n</div>\n\n</section>",
+          "_cid": "VijOpxws60",
+          "_anchor": "design-block-VijOpxws60",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "title": "My Minecraft Server",
+        "order": 2
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@sticky)": {
+              ".navbar-dropdown": {
+                "position": "relative !important"
+              },
+              "& when (@transparent)": {
+                ".navbar-dropdown": {
+                  "position": "absolute !important"
+                }
+              }
+            },
+            "& when (@sticky)": {
+              "z-index": "1000",
+              "width": "100%",
+              "& when not (@transparent)": {
+                "position": "relative",
+                "min-height": "60px"
+              },
+              "nav.navbar": {
+                "position": "fixed"
+              }
+            },
+            ".dropdown-item:before": {
+              "font-family": "Moririse2 !important",
+              "content": "\"\\e966\"",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "transform": "scale(0, 1)",
+              "transition": "all 0.25s ease-in-out"
+            },
+            ".dropdown-menu": {
+              "padding": "0",
+              "border-radius": "4px",
+              "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)"
+            },
+            ".dropdown-item": {
+              "border-bottom": "1px solid #e6e6e6",
+              "&:hover, &:focus": {
+                "background": "@primaryColor !important",
+                "color": "white !important"
+              },
+              "&:hover span": {
+                "color": "white"
+              },
+              "&:first-child": {
+                "border-top-left-radius": "4px",
+                "border-top-right-radius": "4px"
+              },
+              "&:last-child": {
+                "border-bottom": "none",
+                "border-bottom-left-radius": "4px",
+                "border-bottom-right-radius": "4px"
+              }
+            },
+            ".nav-dropdown .link": {
+              "padding": "0 0.3em !important",
+              "margin": "0.667em 1em !important"
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem"
+            },
+            ".nav-link": {
+              "position": "relative"
+            },
+            ".container": {
+              "display": "flex",
+              "margin": "auto",
+              "& when not (@collapsed)": {
+                "@media (min-width: 992px)": {
+                  "flex-wrap": "nowrap"
+                }
+              }
+            },
+            ".iconfont-wrapper": {
+              "color": "@iconsColor !important",
+              "font-size": "1.5rem",
+              "padding-right": "0.5rem"
+            },
+            ".navbar-caption": {},
+            ".navbar-nav": {},
+            ".dropdown-menu, .navbar.opened": {
+              "background": "@menuBgColor !important"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-right": "0.5rem",
+                "vertical-align": "sub",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "70px",
+              "transition": "all 0.3s",
+              "border-bottom": "1px solid transparent",
+              "&:not(.navbar-short)": {},
+              "& when not (@transparent)": {
+                "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)",
+                "background": "@menuBgColor"
+              },
+              "& when (@transparent)": {
+                "position": "absolute",
+                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
+              },
+              "&.opened": {
+                "transition": "all 0.3s"
+              },
+              ".dropdown-item": {
+                "padding": "0.5rem 1.8rem"
+              },
+              ".navbar-logo img": {
+                "width": "auto"
+              },
+              ".navbar-collapse": {
+                "justify-content": "flex-end",
+                "z-index": "1"
+              },
+              "&.collapsed": {
+                "justify-content": "center",
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "41%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-right": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "40%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word",
+                  "padding-right": "2rem"
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "&.navbar-short": {
+                "min-height": "60px",
+                ".navbar-logo": {
+                  "img": {
+                    "height": "2.5rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "min-height": "60px",
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "min-height": "70px",
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "10px 0",
+              "transition": "all 0.3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center",
+              "min-width": "170px"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all 0.2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all 0.2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all 0.2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              },
+              "&:nth-child(2)": {
+                "transform": "rotate(45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(3)": {
+                "transform": "rotate(-45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": "0 1rem",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            ".icons-menu": {
+              "flex-wrap": "nowrap",
+              "display": "flex",
+              "justify-content": "center",
+              "padding-left": "1rem",
+              "padding-right": "1rem",
+              "padding-top": "0.3rem",
+              "text-align": "center"
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "70px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~\"+\" 2rem)",
+                "left": "-1rem"
+              }
+            }
+          },
+          "_name": "menu2",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu2\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                    'navbar-expand-lg':!collapsed,\n                    'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobiri.se\">\n                        <img src=\"../_images/logo.png\" alt=\"Mobirise Website Builder\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">My Website</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#header3-4\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">HOME&nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"page1.html#top\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">My Minecraft Server&nbsp;</a></li>\n                    \n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"page2.html#contacts1-n\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Contacts</a>\n                    </li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://www.instagram.com/mananrewri09/\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        Download Now</a>\n                </div>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "t4c3kGH1Df",
+          "_anchor": "menu2-f",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"text\" title=\"Fallback Image\" name=\"videoToImageOnMobile\" condition=\"overlay && bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\" video-to-image-on-mobile=\"{{videoToImageOnMobile}}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b><br></b><b>I Am Creating my own Minecraft Server</b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">I am Creating my own minecraft server in which I will put many plugins when its done I will put IP on this website</h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t4ceW7Mv7Y",
+          "_anchor": "content4-o",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_sourceTheme": "mobirise5",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            "body": {
+              "background": "#eee",
+              "margin-top": "20px"
+            },
+            ".price-tabs": {
+              "background-color": "#fff",
+              "-webkit-box-shadow": "0 5px 20px 0 rgba(39, 39, 39, 0.1)",
+              "box-shadow": "0 5px 20px 0 rgba(39, 39, 39, 0.1)",
+              "display": "inline-block",
+              "padding": "7px",
+              "border-radius": "40px",
+              "border": "1px solid @bgColor2",
+              "margin-bottom": "45px"
+            },
+            "@media (min-width: 768px)": {
+              ".price-tabs": {
+                "margin-bottom": "60px"
+              },
+              ".price-tabs .nav-link": {
+                "padding": "12px 40px"
+              },
+              ".price-item": {
+                "margin": "0 20px",
+                "padding-top": "20px"
+              },
+              ".price-item .price-top": {
+                "margin": "0 -20px",
+                "border-radius": "20px"
+              },
+              ".price-item .price-top:after": {
+                "border-radius": "0 0 20px 20px"
+              }
+            },
+            ".price-tabs .nav-link": {
+              "color": "@bgColor2",
+              "font-weight": "500",
+              "font-family": "\"Montserrat\", sans-serif",
+              "font-size": "16px",
+              "padding": "12px 35px",
+              "display": "inline-block",
+              "text-transform": "capitalize",
+              "border-radius": "40px",
+              "-webkit-transition": "all 0.3s ease",
+              "transition": "all 0.3s ease"
+            },
+            ".price-tabs .nav-link.active": {
+              "background-color": "@bgColor2",
+              "color": "#fff"
+            },
+            ".price-item": {
+              "background-color": "#fff",
+              "-webkit-box-shadow": "0 5px 30px 0 rgba(39, 39, 39, 0.15)",
+              "box-shadow": "0 5px 30px 0 rgba(39, 39, 39, 0.15)",
+              "border-radius": "10px"
+            },
+            ".price-item .price-top": {
+              "-webkit-box-shadow": "0 5px 30px 0 rgba(39, 39, 39, 0.15)",
+              "box-shadow": "0 5px 30px 0 rgba(39, 39, 39, 0.15)",
+              "padding": "50px 0 25px",
+              "background-color": "@bgColor2",
+              "border-radius": "10px",
+              "position": "relative",
+              "z-index": "0",
+              "margin-bottom": "33px"
+            },
+            ".price-item .price-top:after": {
+              "height": "50px",
+              "width": "100%",
+              "border-radius": "0 0 10px 10px",
+              "background-color": "@bgColor2",
+              "position": "absolute",
+              "content": "''",
+              "left": "0",
+              "bottom": "-17px",
+              "z-index": "-1",
+              "-webkit-transform": "skewY(5deg)",
+              "transform": "skewY(5deg)",
+              "-webkit-box-shadow": "0 5px 10px 0 rgba(113, 113, 113, 0.15)",
+              "box-shadow": "0 5px 10px 0 rgba(113, 113, 113, 0.15)"
+            },
+            ".price-item .price-top *": {
+              "color": "#fff"
+            },
+            ".price-item .price-top h2": {
+              "font-weight": "700"
+            },
+            ".price-item .price-top h2 sup": {
+              "top": "13px",
+              "left": "-5px",
+              "font-size": "0.35em",
+              "font-weight": "500",
+              "vertical-align": "top"
+            },
+            ".price-item .price-content": {
+              "padding": "30px",
+              "padding-bottom": "40px"
+            },
+            ".price-item .price-content li": {
+              "position": "relative",
+              "margin-bottom": "15px",
+              "margin-left": "10px",
+              "margin-right": "10px",
+              "text-align": "center"
+            },
+            "@media (min-width: 992px)": {
+              ".price-item .price-content li": {
+                "padding-left": "28px",
+                "text-align": "left"
+              },
+              ".price-item .price-content li i": {
+                "position": "absolute",
+                "left": "0",
+                "top": "3px"
+              }
+            },
+            ".price-item .price-content .zmdi-check": {
+              "color": "#28a745"
+            },
+            ".price-item .price-content .zmdi-close": {
+              "color": "#f00"
+            },
+            ".popular": {
+              "background-color": "@bgColor2"
+            },
+            ".popular .price-top": {
+              "background-color": "#fff"
+            },
+            ".popular .price-top:after": {
+              "background-color": "#fff"
+            },
+            ".popular .price-top h4": {
+              "color": "#101f41"
+            },
+            ".popular .price-top h2, .popular .price-top span, .popular .price-top sup": {
+              "color": "@bgColor2"
+            },
+            ".popular .price-content ul *, .popular .price-content ul .zmdi-close, .popular .price-content ul .zmdi-check": {
+              "color": "#fff !important"
+            },
+            "H2": {
+              "text-align": "center"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" mbr-id=\"_price_one\" class=\"mbr-section pricing content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n      <input type=\"color\" title=\"Pricing Bg Color\" name=\"bgColor2\" value=\"#673ab7\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n            <div class=\"text-center\">\n                <div class=\"nav price-tabs\" role=\"tablist\">\n                    <a class=\"nav-link active\" href=\"#yearly\" role=\"tab\" data-toggle=\"tab\" data-bs-toggle=\"tab\">Yearly</a>\n                    <a class=\"nav-link\" href=\"#monthly\" role=\"tab\" data-toggle=\"tab\" data-bs-toggle=\"tab\">Monthly</a>\n                </div>\n              <p>Contact me on whatsapp for buying&nbsp;</p>\n            </div>\n            <div class=\"tab-content wow fadeIn\" style=\"visibility: visible; animation-name: fadeIn;\">\n                <div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"yearly\">\n                    <div class=\"row justify-content-center\">\n                        <div class=\"col-md-12 col-lg-4 mb-30\">\n                            <div class=\"price-item text-center\">\n                                <div class=\"price-top\">\n                                    <h4>PRO</h4>\n                                    <h2 class=\"mb-0\">₹299</h2>\n                                    <span class=\"text-capitalize\" mbr-text>per year</span>\n                                </div>\n                                <div class=\"price-content\">\n                                    <ul class=\"border-bottom mb-30 mt-md-4 pb-3 text-left\" mbr-text>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            Get custom chat color&nbsp;</li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            get pro crate keys</li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            also get pro role in discord</li>\n                                    </ul>\n                                    <a href=\"#\" class=\"btn btn-custom\" mbr-text>Contact me<br>To buy<br></a>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-md-12 col-lg-4 mb-30\">\n                            <div class=\"price-item text-center popular\">\n                                <div class=\"price-top\">\n                                    <h4>HACKER</h4>\n                                    <h2 class=\"mb-0\">₹699</h2>\n                                    <span class=\"text-capitalize\" mbr-text>per year</span>\n                                </div>\n                                <div class=\"price-content\">\n                                    <ul class=\"border-bottom mb-30 mt-md-4 pb-3 text-left\" mbr-text>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            Get custom chat color&nbsp;</li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            get hacker crate keys</li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            also get hacker role in discord</li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            can get $1000 daily in server</li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            access&nbsp; to many more things</li>\n                                    </ul>\n                                    <a href=\"#\" class=\"btn btn-custom btn-light\" mbr-text>Contact me to buy</a>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-md-12 col-lg-4 mb-30\">\n                            <div class=\"price-item text-center\">\n                                <div class=\"price-top\">\n                                    <h4>GOD</h4>\n                                    <h2 class=\"mb-0\">₹999</h2>\n                                    <span class=\"text-capitalize\" mbr-text>per year</span>\n                                </div>\n                                <div class=\"price-content\">\n                                    <ul class=\"border-bottom mb-30 mt-md-4 pb-3 text-left\" mbr-text>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            Get custom chat color&nbsp;</li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            get god crate keys</li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            also get mod and god role in discord</li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            can get $10000 daily in server</li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            acces to all things(not commands like gamemode,give)&nbsp;</li>\n                                    </ul>\n                                    <a href=\"#\" class=\"btn btn-custom\" mbr-text>Contact me to buy</a>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div role=\"tabpanel\" class=\"tab-pane fade\" id=\"monthly\">\n                    <div class=\"row justify-content-center\">\n                        <div class=\"col-md-12 col-lg-4 mb-30\">\n                            <div class=\"price-item text-center\">\n                                <div class=\"price-top\">\n                                    <h4>PRO</h4>\n                                    <h2 class=\"mb-0\">₹99</h2>\n                                    <span class=\"text-capitalize\" mbr-text>per month</span>\n                                </div>\n                                <div class=\"price-content\">\n                                    <ul class=\"border-bottom mb-30 mt-md-4 pb-3 text-left\" mbr-text>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            get custom chat color</li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            get pro crate keys</li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            also get pro role in discord</li>\n                                    </ul>\n                                    <a href=\"#\" class=\"btn btn-custom\" mbr-text>contact me<br> to buy</a>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-md-12 col-lg-4 mb-30\">\n                            <div class=\"price-item text-center popular\">\n                                <div class=\"price-top\">\n                                    <h4>HACKER</h4>\n                                    <h2 class=\"mb-0\">₹399</h2>\n                                    <span class=\"text-capitalize\" mbr-text>per month</span>\n                                </div>\n                                <div class=\"price-content\">\n                                    <ul class=\"border-bottom mb-30 mt-md-4 pb-3 text-left\" mbr-text>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            get custom chat color</li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            get hacker crate keys</li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            also get hacker role in discord</li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            can get $1000 daily in server</li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            acces to many more things</li>\n                                    </ul>\n                                    <a href=\"#\" class=\"btn btn-custom btn-light\" mbr-text>contact me\n<br>to buy</a>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-md-12 col-lg-4 mb-30\">\n                            <div class=\"price-item text-center\">\n                                <div class=\"price-top\">\n                                    <h4>GOD</h4>\n                                    <h2 class=\"mb-0\">₹599</h2>\n                                    <span class=\"text-capitalize\" mbr-text>per month</span>\n                                </div>\n                                <div class=\"price-content\">\n                                    <ul class=\"border-bottom mb-30 mt-md-4 pb-3 text-left\" mbr-text>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            Get custom chat color&nbsp;</li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            get god crate key</li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            also get mod and god role in discord</li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            can get $10000 daily in server</li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            access to all things(not commands like gamemode,give)</li>\n                                    </ul>\n                                    <a href=\"#\" class=\"btn btn-custom\" mbr-text>contact me\n<br>to buy</a>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n</section>",
+          "_anchor": "design-block-s",
+          "_isUserblock": true,
+          "_cid": "t4chqrxnh1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            }
+          },
+          "_name": "content6",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content6\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        \n        <input type=\"color\" name=\"lineColor\" title=\"Color\" value=\"#6592e6\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <hr class=\"line\">\n                <p class=\"mbr-text align-center mbr-fonts-style my-4\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Minecraft is a sandbox video game developed by Mojang Studios. The game was created by Markus \"Notch\" Persson in the Java programming language. Following several early private testing versions, it was first made public in May 2009 before fully releasing in November 2011, with Notch stepping down and Jens \"Jeb\" Bergensten taking over development. Minecraft has since been ported to several other platforms and is the best-selling video game of all time, with over 238 million copies sold and nearly 140 million monthly active users as of 2021.\n<br>\n<br>In Minecraft, players explore a blocky, procedurally generated 3D world with virtually infinite terrain, and may discover and extract raw materials, craft tools and items, and build structures, earthworks and simple machines. Depending on game mode, players can fight computer-controlled mobs, as well as cooperate with or compete against other players in the same world. Game modes include a survival mode, in which players must acquire resources to build the world and maintain health, and a creative mode where players have unlimited resources and access to flight. Players can modify the game to create new gameplay mechanics, items, and assets.\n<br>\n<br>Minecraft received critical acclaim, winning several awards and later being cited as one of the greatest video games of all time. Social media, parodies, adaptations, merchandise, and the annual Minecon conventions played large roles in popularizing the game. The game has also been used in educational environments to teach chemistry, computer-aided design, and computer science. In 2014, Mojang and the Minecraft intellectual property were purchased by Microsoft for US$2.5 billion. A number of spin-off games have also been made, including Minecraft: Story Mode, Minecraft Dungeons, and Minecraft Earth.<br><br>Minecraft is a 3D sandbox game that has no required goals to accomplish, allowing players a large amount of freedom in choosing how to play the game.[18] However, there is an achievement system,[19] known as \"advancements\" in the Java Edition of the game, and \"trophies\" on the PlayStation ports.[20] Gameplay is in the first-person perspective by default, but players have the option for third-person perspective.[21] The game world is composed of rough 3D objects—mainly cubes and fluids, and commonly called \"blocks\"—representing various materials, such as dirt, stone, ores, tree trunks, water, and lava. The core gameplay revolves around picking up and placing these objects. These blocks are arranged in a 3D grid, while players can move freely around the world. Players can \"mine\" blocks and then place them elsewhere, enabling them to build things.[22] Many commentators have described the game's physics system as unrealistic.[23] The game also contains a material known as redstone, which can be used to make primitive mechanical devices, electrical circuits, and logic gates, allowing for the construction of many complex systems.[24]\n<br>The default player skin, Steve, stands on a cliffside overlooking a village in a forest. In the distance, there is a small mountain range. The sun is setting to the right, making the sky turn pink and blue.\n<br>An example of Minecraft's procedurally generated terrain, including a village and the default skin Steve\n<br>\n<br>The game world is virtually infinite and procedurally generated as players explore it, using a map seed that is obtained from the system clock at the time of world creation (or manually specified by the player).[25][26][27] There are limits on vertical movement, but Minecraft allows an infinitely large game world to be generated on the horizontal plane. Due to technical problems when extremely distant locations are reached, however, there is a barrier preventing players from traversing to locations beyond 30,000,000 blocks from the center.[i] The game achieves this by splitting the world data into smaller sections called \"chunks\" that are only created or loaded when players are nearby.[25] The world is divided into biomes ranging from deserts to jungles to snowfields;[28][29] the terrain includes plains, mountains, forests, caves, and various lava/water bodies.[27] The in-game time system follows a day and night cycle, and one full cycle lasts 20 real-time minutes.\n<br>\n<br>When starting a new world, players must choose one of five game modes, as well as one of four difficulties, ranging from peaceful to hard. Increasing the difficulty of the game causes the player to take more damage from mobs, as well as having other difficulty-specific effects. For example, the peaceful difficulty prevents hostile mobs from spawning, and the hard difficulty allows players to starve to death if their hunger bar is depleted.[30] Once selected, the difficulty can be changed, but the game mode is locked and can only be changed with cheats.\n<br>Standing on a flat grassy plain against a blue sky, there is a green zombie wearing a blue shirt and purple pants; a large spider with red eyes; a tall, black, slender creature with purple eyes; a green, four-legged creature; and a skeleton.\n<br>Some of Minecraft's monsters, displayed from left to right: a zombie, a spider, an enderman, a creeper, and a skeleton\n<br>\n<br>New players have a randomly selected default character skin of either Steve or Alex,[31] but the option to create custom skins was made available in 2010.[32] Players encounter various non-player characters known as mobs, such as animals, villagers, and hostile creatures.[33] Passive mobs, such as cows, pigs, and chickens, can be hunted for food and crafting materials. They spawn in the daytime, while hostile mobs—including large spiders, skeletons, and zombies—spawn during nighttime or in dark places such as caves.[27] Some hostile mobs, such as zombies, skeletons and drowned (underwater versions of zombies), burn under the sun if they have no headgear.[34] Other creatures unique to Minecraft include the creeper (an exploding creature that sneaks up on the player) and the enderman (a creature with the ability to teleport as well as pick up and place blocks).[35] There are also variants of mobs that spawn in different conditions; for example, zombies have husk variants that spawn in deserts.[36]\n<br>\n<br>Minecraft has two alternative dimensions besides the overworld (the main world): the Nether and the End.[35] The Nether is a hell-like dimension accessed via player-built portals; it contains many unique resources and can be used to travel great distances in the overworld, due to every block traveled in the Nether being equivalent to 8 blocks traveled in the overworld.[37] The player can build an optional boss mob called the Wither out of materials found in the Nether.[38] The End is a barren land consisting of many islands floating above a dark, endless void. A boss dragon called the Ender Dragon dwells on the main island.[39] Killing the dragon opens access to an exit portal, which upon entering cues the game's ending credits and a poem written by Irish novelist Julian Gough.[40] Players are then teleported back to their spawn point and may continue the game indefinitely.[41]&nbsp;&nbsp;</p>\n                <hr class=\"line\">\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t4cfBxKryT",
+          "_anchor": "content6-p",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            ".progress-container": {
+              "z-index": "20000",
+              "position": "fixed",
+              "width": "100%",
+              "height": "(@LineHeight * 1px)",
+              "background": "@BckColor",
+              "top": "(@TopLine * 1px)"
+            },
+            ".progress-bar": {
+              "height": "(@LineHeight * 1px)",
+              "background": "@Linecolor",
+              "width": "0%"
+            },
+            "& when (@Stickyzen2 = false)": {
+              ".sticky2": {
+                "position": "fixed",
+                "top": "0px",
+                "width": "100%"
+              }
+            },
+            "& when (@Stickyzen2)": {
+              ".sticky2": {
+                "position": "fixed",
+                "top": "(@TopLine2 * 1px)",
+                "width": "100%"
+              }
+            },
+            ".hidden": {
+              "display": "none"
+            },
+            "H10": {
+              "color": "#767676"
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section data-bs-version=\"5.1\" mbr-id=\"_anchor\" class=\"_customHTML\">\n \n  \n     <mbr-parameters>\n<hr><header>Scroll Indicator</header>\n        \n       <input type=\"color\" title=\"Background Color\" name=\"BckColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Line Color\" name=\"Linecolor\" value=\"#000000\">\n       <input type=\"range\" title=\"Line Height\" name=\"LineHeight\" min=\"1\" max=\"15\" step=\"1\" value=\"5\">\n        <input type=\"range\" title=\"Top Position\" name=\"TopLine\" min=\"0\" max=\"300\" step=\"1\" value=\"0\">\n      <input type=\"checkbox\" title=\"Sticky\" name=\"Stickyzen2\" checked>\n       <input type=\"range\" title=\"Top Position 2\" name=\"TopLine2\" min=\"0\" max=\"300\" step=\"1\" value=\"0\" condition=\"Stickyzen2\">\n    </mbr-parameters> \n \n  <div class=\"progress-container\" id=\"myHeader\">\n    <div class=\"progress-bar\" id=\"myBar\"></div>\n  </div>      \n  \n<script type=\"text/javascript\">\nwindow.onscroll = function() {myFunction()};\nvar header = document.getElementById(\"myHeader\");\n// Get the offset position of the navbar\nvar sticky = header.offsetTop;\nfunction myFunction() {\n  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;\n  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;\n  var scrolled = (winScroll / height) * 100;\n  document.getElementById(\"myBar\").style.width = scrolled + \"%\";\n  \n   if (window.pageYOffset > sticky) {\n    header.classList.add(\"sticky2\");\n  } else {\n    header.classList.remove(\"sticky2\");\n  }\n  \n  \n}\n \n        \n</script>\n\n <div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <h10> <br><br><br><br><br><br>Scroll Indicator - Progress bar<br>\n        Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.<br><br><svg id=\"svg\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"150\" viewBox=\"0, 0, 400,383.33333333333337\"><g id=\"svgg\"><path id=\"path0\" d=\"M37.210 6.152 C 35.603 6.521,34.673 7.586,34.092 9.720 C 33.330 12.516,33.825 95.736,34.612 97.241 C 35.870 99.644,28.382 99.467,134.420 99.600 C 199.138 99.681,231.925 99.852,232.882 100.115 C 235.440 100.816,235.350 101.661,230.295 124.449 C 224.368 151.170,212.070 208.952,209.422 222.521 C 207.800 230.833,207.905 232.790,209.971 232.790 C 211.891 232.790,209.325 235.910,254.122 179.099 C 277.812 149.054,289.953 133.596,295.689 126.174 C 297.890 123.327,306.521 112.368,314.870 101.822 C 367.957 34.759,386.363 11.054,386.765 9.224 C 387.073 7.820,386.446 6.596,385.169 6.111 C 383.972 5.656,39.193 5.697,37.210 6.152 M382.917 8.569 C 384.519 9.741,380.855 14.580,323.489 87.057 C 313.389 99.818,299.260 117.766,292.092 126.942 C 279.051 143.636,265.977 160.258,245.456 186.236 C 239.439 193.853,229.856 206.001,224.162 213.231 C 210.292 230.840,210.188 230.897,212.490 219.587 C 217.028 197.295,227.371 148.754,232.598 125.216 C 237.896 101.359,238.065 99.524,235.099 97.991 C 234.120 97.484,228.193 97.405,188.034 97.358 C 75.294 97.227,37.576 96.911,36.978 96.092 C 36.161 94.974,36.161 10.490,36.978 9.373 C 37.513 8.642,38.883 8.626,116.843 8.435 C 301.952 7.984,382.171 8.024,382.917 8.569 M81.622 108.821 C 107.636 108.875,150.091 108.875,175.966 108.821 C 201.840 108.766,180.556 108.722,128.667 108.722 C 76.779 108.722,55.608 108.766,81.622 108.821 M177.885 157.718 C 177.182 158.404,174.020 162.244,170.860 166.251 C 167.700 170.259,164.939 173.732,164.724 173.970 C 164.509 174.207,161.918 177.468,158.965 181.217 C 156.012 184.965,150.834 191.512,147.459 195.767 C 144.084 200.021,139.856 205.359,138.063 207.629 C 129.342 218.668,112.627 239.779,108.533 244.926 C 107.162 246.650,103.624 251.125,100.671 254.870 C 97.718 258.615,93.156 264.369,90.533 267.657 C 87.910 270.944,79.126 282.263,71.012 292.809 C 62.899 303.356,50.820 318.802,44.170 327.133 C 28.112 347.253,23.297 353.336,21.093 356.284 C 20.566 356.990,18.921 359.133,17.439 361.046 C 6.762 374.827,3.520 379.694,4.240 380.859 C 4.652 381.526,352.012 381.883,353.760 381.218 L 354.749 380.843 354.547 336.442 C 354.330 288.424,354.421 291.066,352.956 290.282 C 351.831 289.680,309.260 289.563,226.846 289.934 C 183.386 290.130,157.086 289.826,155.238 289.106 C 153.350 288.370,153.375 288.079,156.655 272.483 C 157.410 268.897,158.183 265.187,158.374 264.238 C 159.208 260.094,161.885 247.419,162.221 246.021 C 162.651 244.231,164.430 235.954,166.258 227.229 C 166.966 223.854,167.895 219.453,168.324 217.450 C 168.753 215.446,169.619 211.390,170.249 208.437 C 170.879 205.484,171.843 200.997,172.391 198.466 C 172.938 195.935,173.542 193.087,173.734 192.138 C 173.925 191.189,174.694 187.478,175.444 183.893 C 181.253 156.107,181.424 154.270,177.885 157.718 M334.899 284.838 C 335.479 284.926,336.429 284.926,337.009 284.838 C 337.589 284.751,337.114 284.679,335.954 284.679 C 334.794 284.679,334.319 284.751,334.899 284.838 \" stroke=\"none\" fill=\"#b3b3b3\" fill-rule=\"evenodd\"></path><path id=\"path1\" d=\"M116.843 8.435 C 38.883 8.626,37.513 8.642,36.978 9.373 C 36.161 10.490,36.161 94.974,36.978 96.092 C 37.576 96.911,75.294 97.227,188.034 97.358 C 228.193 97.405,234.120 97.484,235.099 97.991 C 238.065 99.524,237.896 101.359,232.598 125.216 C 227.371 148.754,217.028 197.295,212.490 219.587 C 210.188 230.897,210.292 230.840,224.162 213.231 C 229.856 206.001,239.439 193.853,245.456 186.236 C 265.977 160.258,279.051 143.636,292.092 126.942 C 299.260 117.766,313.389 99.818,323.489 87.057 C 380.855 14.580,384.519 9.741,382.917 8.569 C 382.171 8.024,301.952 7.984,116.843 8.435 \" stroke=\"none\" fill=\"#4c4c4c\" fill-rule=\"evenodd\"></path><path id=\"path2\" d=\"M24.582 1.208 C 24.285 2.061,24.165 16.987,24.175 52.119 C 24.189 104.381,24.198 104.667,25.856 107.198 C 27.312 109.419,21.600 109.300,126.819 109.300 C 187.817 109.300,223.202 109.435,223.202 109.666 C 223.202 109.868,221.385 118.791,219.165 129.496 C 216.944 140.200,215.208 149.171,215.308 149.431 C 215.408 149.690,215.358 149.957,215.197 150.023 C 214.865 150.160,213.651 155.819,204.600 199.407 C 201.952 212.158,199.872 222.815,199.977 223.088 C 200.082 223.362,199.980 223.586,199.752 223.586 C 199.516 223.586,199.414 223.996,199.516 224.531 C 199.615 225.051,199.582 225.526,199.442 225.586 C 199.151 225.710,198.557 228.337,196.119 240.268 C 195.171 244.909,194.060 250.029,193.650 251.646 C 191.455 260.308,193.965 264.453,200.009 262.145 C 201.966 261.398,201.889 261.486,213.429 246.788 C 220.801 237.399,226.824 229.751,236.050 218.064 C 240.748 212.113,252.094 197.659,269.799 175.072 C 275.255 168.111,284.303 156.570,289.907 149.425 C 295.511 142.279,303.979 131.474,308.725 125.414 C 321.361 109.277,325.827 103.583,336.629 89.833 C 342.331 82.576,346.237 77.280,346.078 77.022 C 345.919 76.764,345.976 76.688,346.216 76.836 C 346.447 76.979,347.760 75.626,349.227 73.732 C 350.658 71.885,353.101 68.781,354.656 66.833 C 356.329 64.739,357.370 63.109,357.206 62.843 C 357.041 62.576,357.094 62.496,357.336 62.646 C 357.872 62.977,368.666 49.199,368.315 48.632 C 368.164 48.388,368.223 48.310,368.450 48.451 C 368.674 48.589,373.706 42.505,379.897 34.608 C 385.973 26.858,392.261 18.965,393.871 17.066 C 395.480 15.168,397.517 12.693,398.398 11.567 L 400.000 9.519 400.000 4.759 L 400.000 0.000 212.502 0.000 L 25.003 0.000 24.582 1.208 M385.169 6.111 C 386.446 6.596,387.073 7.820,386.765 9.224 C 386.363 11.054,367.957 34.759,314.870 101.822 C 306.521 112.368,297.890 123.327,295.689 126.174 C 289.953 133.596,277.812 149.054,254.122 179.099 C 209.325 235.910,211.891 232.790,209.971 232.790 C 207.905 232.790,207.800 230.833,209.422 222.521 C 212.070 208.952,224.368 151.170,230.295 124.449 C 235.350 101.661,235.440 100.816,232.882 100.115 C 231.925 99.852,199.138 99.681,134.420 99.600 C 28.382 99.467,35.870 99.644,34.612 97.241 C 33.825 95.736,33.330 12.516,34.092 9.720 C 34.673 7.586,35.603 6.521,37.210 6.152 C 39.193 5.697,383.972 5.656,385.169 6.111 M175.966 108.821 C 150.091 108.875,107.636 108.875,81.622 108.821 C 55.608 108.766,76.779 108.722,128.667 108.722 C 180.556 108.722,201.840 108.766,175.966 108.821 M180.735 144.991 C 179.413 145.394,178.766 146.116,171.634 155.164 C 166.035 162.266,160.321 169.481,152.304 179.573 C 148.329 184.577,145.792 188.088,145.958 188.357 C 146.118 188.615,146.070 188.703,145.844 188.563 C 145.295 188.224,144.060 189.684,144.413 190.256 C 144.585 190.533,144.541 190.624,144.307 190.478 C 143.770 190.147,136.792 198.920,137.142 199.485 C 137.301 199.742,137.247 199.823,137.013 199.678 C 136.474 199.345,127.972 210.042,128.323 210.610 C 128.476 210.857,128.426 210.944,128.208 210.810 C 127.996 210.679,125.945 212.939,123.650 215.832 C 121.355 218.726,116.830 224.412,113.595 228.469 C 110.061 232.902,107.824 236.025,107.991 236.295 C 108.151 236.554,108.103 236.641,107.877 236.502 C 107.327 236.162,106.092 237.623,106.445 238.194 C 106.613 238.465,106.574 238.562,106.354 238.426 C 106.145 238.297,104.765 239.694,103.288 241.531 C 96.608 249.837,76.645 275.196,70.771 282.838 C 67.204 287.478,62.325 293.824,59.929 296.939 C 57.436 300.180,55.688 302.790,55.842 303.039 C 55.996 303.289,55.941 303.369,55.712 303.227 C 55.170 302.893,54.322 303.975,54.676 304.549 C 54.843 304.818,54.798 304.908,54.569 304.766 C 54.020 304.427,52.785 305.888,53.138 306.459 C 53.307 306.733,53.266 306.827,53.039 306.686 C 52.524 306.368,45.925 314.778,46.261 315.323 C 46.416 315.573,46.348 315.638,46.095 315.482 C 45.595 315.173,22.023 344.549,22.104 345.380 C 22.133 345.675,22.027 345.837,21.868 345.738 C 21.392 345.444,20.226 346.987,20.539 347.494 C 20.712 347.773,20.668 347.862,20.431 347.716 C 20.071 347.493,14.984 353.821,7.143 364.244 C 5.466 366.473,4.298 368.371,4.451 368.618 C 4.610 368.875,4.551 368.949,4.308 368.799 C 4.071 368.653,3.080 369.715,1.982 371.294 L 0.069 374.044 0.025 378.776 L -0.020 383.509 180.335 383.509 L 360.690 383.509 360.580 337.776 C 360.460 288.005,360.498 288.865,358.312 286.446 C 355.732 283.591,359.250 283.754,301.092 283.791 C 272.531 283.809,249.028 283.908,248.862 284.010 C 247.895 284.608,161.482 283.949,160.872 283.340 C 160.729 283.196,161.071 280.888,161.632 278.211 C 162.193 275.534,162.558 273.098,162.443 272.798 C 162.327 272.497,162.365 272.333,162.526 272.433 C 162.687 272.532,163.297 270.255,163.881 267.371 C 164.465 264.488,167.099 252.044,169.734 239.719 C 172.369 227.393,174.442 217.093,174.340 216.829 C 174.239 216.565,174.296 216.294,174.468 216.228 C 174.932 216.048,176.895 206.412,176.573 205.891 C 176.400 205.611,176.462 205.545,176.738 205.716 C 177.004 205.880,177.181 205.740,177.181 205.367 C 177.181 205.025,178.123 200.312,179.274 194.894 C 183.691 174.105,185.667 164.276,185.737 162.744 C 185.777 161.869,185.963 161.247,186.149 161.360 C 186.336 161.474,186.409 161.024,186.312 160.361 C 186.214 159.699,186.256 159.156,186.405 159.156 C 186.650 159.156,187.185 156.010,187.710 151.486 C 188.291 146.478,185.225 143.623,180.735 144.991 M180.249 158.438 C 180.249 160.249,178.966 167.046,175.444 183.893 C 174.694 187.478,173.925 191.189,173.734 192.138 C 173.542 193.087,172.938 195.935,172.391 198.466 C 171.843 200.997,170.879 205.484,170.249 208.437 C 169.619 211.390,168.753 215.446,168.324 217.450 C 167.895 219.453,166.966 223.854,166.258 227.229 C 164.430 235.954,162.651 244.231,162.221 246.021 C 161.885 247.419,159.208 260.094,158.374 264.238 C 158.183 265.187,157.410 268.897,156.655 272.483 C 153.375 288.079,153.350 288.370,155.238 289.106 C 157.086 289.826,183.386 290.130,226.846 289.934 C 309.260 289.563,351.831 289.680,352.956 290.282 C 354.421 291.066,354.330 288.424,354.547 336.442 L 354.749 380.843 353.760 381.218 C 352.012 381.883,4.652 381.526,4.240 380.859 C 3.520 379.694,6.762 374.827,17.439 361.046 C 18.921 359.133,20.566 356.990,21.093 356.284 C 23.297 353.336,28.112 347.253,44.170 327.133 C 50.820 318.802,62.899 303.356,71.012 292.809 C 79.126 282.263,87.910 270.944,90.533 267.657 C 93.156 264.369,97.718 258.615,100.671 254.870 C 103.624 251.125,107.162 246.650,108.533 244.926 C 112.627 239.779,129.342 218.668,138.063 207.629 C 139.856 205.359,144.084 200.021,147.459 195.767 C 150.834 191.512,156.012 184.965,158.965 181.217 C 161.918 177.468,164.509 174.207,164.724 173.970 C 164.939 173.732,167.700 170.259,170.860 166.251 C 179.198 155.678,180.249 154.803,180.249 158.438 M337.009 284.838 C 336.429 284.926,335.479 284.926,334.899 284.838 C 334.319 284.751,334.794 284.679,335.954 284.679 C 337.114 284.679,337.589 284.751,337.009 284.838\" stroke=\"none\" fill=\"#fafafa\" fill-rule=\"evenodd\"></path></g></svg><br><br><br></h10>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_cid": "54V9adWyTl",
+          "_anchor": "design-block-54V9adWyTl",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_sourceTheme": "mobirise5",
+          "_styles": {
+            "input, textarea, button, select, a": {
+              "-webkit-tap-highlight-color": "rgba(0, 0, 0, 0)"
+            },
+            ".wrap": {
+              "position": "fixed",
+              "display": "flex",
+              "flex-wrap": "wrap",
+              "justify-content": "center",
+              "align-items": "center",
+              "width": "100%",
+              "bottom": "50",
+              "right": "0",
+              "padding-right": "20px",
+              "background-color": "@barColorSelect",
+              "z-index": "2",
+              "visibility": "visible"
+            },
+            ".copyright": {
+              "position": "fixed",
+              "z-index": "1",
+              "visibility": "visible",
+              "margin-left": "10px",
+              "left": "0",
+              "padding-left": "20px"
+            },
+            "@media (min-width: 768px)": {
+              ".wrap": {
+                "justify-content": "flex-end"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".wrap": {
+                "justify-content": "space-around",
+                "padding-right": "0px"
+              },
+              ".copyright": {
+                "visibility": "hidden"
+              }
+            },
+            ".item": {
+              "border-radius": "50%",
+              "font-size": "30px",
+              "font-height": "100%",
+              "text-align": "center",
+              "vertical-align": "middle",
+              "padding": "10px",
+              "margin-top": "10px",
+              "margin-left": "5px",
+              "margin-right": "5px",
+              "margin-bottom": "10px"
+            },
+            ".hidden": {
+              "display": "none"
+            },
+            "& when (@preview)": {
+              ".wrap": {
+                "visibility": "hidden",
+                "z-index": "0",
+                "display": "block !important"
+              },
+              ".copyright": {
+                "visibility": "hidden"
+              }
+            },
+            ".show": {
+              "visibility": "visible !important",
+              "bottom": "0"
+            },
+            "& when not (@barColor)": {
+              ".wrap": {
+                "background-color": "transparent !important"
+              },
+              ".mbr-section-subtitle": {
+                "visibility": "hidden"
+              }
+            },
+            "& when not (@copyright)": {
+              ".mbr-section-subtitle": {
+                "visibility": "hidden"
+              }
+            },
+            "& when (@transparent)": {
+              "@media (max-width: 768px)": {
+                ".wrap": {
+                  "background-color": "transparent !important"
+                }
+              }
+            },
+            ".mbr-section-subtitle": {
+              "color": "#ffffff"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" group=\"Footers\">\n\n<mbr-parameters>\n<input type=\"checkbox\" title=\"Hide in editor\" name=\"preview\">\n<input type=\"range\" inline=\"\" title=\"Buttons\" name=\"items\" min=\"1\" max=\"5\" value=\"1\" step=\"1\">\n<input type=\"color\" title=\"Bg Button 1\" name=\"bgColor5\" value=\"#e43f3f\" condition=\"items > 0\">\n<input type=\"color\" title=\"Bg Button 2\" name=\"bgColor4\" value=\"#0084ff\" condition=\"items > 1\">\n<input type=\"color\" title=\"Bg Button 3\" name=\"bgColor3\" value=\"#3b5999\" condition=\"items > 2\">\n<input type=\"color\" title=\"Bg Button 4\" name=\"bgColor2\" value=\"#d93175\" condition=\"items > 3\">\n<input type=\"color\" title=\"Bg Button 5\" name=\"bgColor1\" value=\"#55acee\" condition=\"items > 4\">\n<input type=\"checkbox\" title=\"Bar Color\" name=\"barColor\" checked=\"\">\n<input type=\"color\" title=\"Select\" name=\"barColorSelect\" value=\"#1e2228\" condition=\"barColor == true\">\n<input type=\"checkbox\" title=\"Transparent in mobile\" name=\"transparent\" condition=\"barColor == true\">\n<input type=\"checkbox\" title=\"Show Copyright\" name=\"copyright\" condition=\"barColor == true\" checked=\"\">\n</mbr-parameters>\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:4rem; color: #ffffff; background-color:#000000;\">Footer Bar 🡇 You can hide in editor ⚙ to avoid overlap</div>\n\n<div mbr-class=\"{'show': isPublish}\" class=\"wrap\">\n\n<h3 data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style copyright\" mbr-theme-style=\"display-7\">Coded with ❤ by <a href=\"https://instagram.com/mananrewri09\" target=\"_blank\">Manan</a> ©2022 </h3>\n\n<a mbr-icon=\"\" class=\"item mbr-iconfont socicon-twitter socicon\" target=\"_blank\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255); background-color:{{bgColor1}}\" href=\"#\" mbr-if=\"items > 4\"></a>\n\n<a mbr-icon=\"\" class=\"item mbr-iconfont socicon-instagram socicon\" target=\"_blank\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255); background-color:{{bgColor2}}\" href=\"#\" mbr-if=\"items > 3\"></a>\n\n<a mbr-icon=\"\" class=\"item mbr-iconfont socicon-facebook socicon\" target=\"_blank\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255); background-color:{{bgColor3}}\" href=\"#\" mbr-if=\"items > 2\"></a>\n\n<a mbr-icon=\"\" class=\"item mbr-iconfont socicon-messenger socicon\" target=\"_blank\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255); background-color:{{bgColor4}}\" href=\"#\" mbr-if=\"items > 1\"></a>\n\n<a mbr-icon=\"\" class=\"item mbr-iconfont socicon-instagram socicon\" target=\"_blank\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255); background-color:{{bgColor5}}\" href=\"https://instagram.com/mananrewri09\" mbr-if=\"items > 0\"></a>\n\n</div>\n\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "design-block-v",
+          "_isUserblock": true,
+          "_cid": "t4cpbloagC",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "title": "My Phone Number",
+        "order": 1
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@sticky)": {
+              ".navbar-dropdown": {
+                "position": "relative !important"
+              },
+              "& when (@transparent)": {
+                ".navbar-dropdown": {
+                  "position": "absolute !important"
+                }
+              }
+            },
+            "& when (@sticky)": {
+              "z-index": "1000",
+              "width": "100%",
+              "& when not (@transparent)": {
+                "position": "relative",
+                "min-height": "60px"
+              },
+              "nav.navbar": {
+                "position": "fixed"
+              }
+            },
+            ".dropdown-item:before": {
+              "font-family": "Moririse2 !important",
+              "content": "\"\\e966\"",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "transform": "scale(0, 1)",
+              "transition": "all 0.25s ease-in-out"
+            },
+            ".dropdown-menu": {
+              "padding": "0",
+              "border-radius": "4px",
+              "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)"
+            },
+            ".dropdown-item": {
+              "border-bottom": "1px solid #e6e6e6",
+              "&:hover, &:focus": {
+                "background": "@primaryColor !important",
+                "color": "white !important"
+              },
+              "&:hover span": {
+                "color": "white"
+              },
+              "&:first-child": {
+                "border-top-left-radius": "4px",
+                "border-top-right-radius": "4px"
+              },
+              "&:last-child": {
+                "border-bottom": "none",
+                "border-bottom-left-radius": "4px",
+                "border-bottom-right-radius": "4px"
+              }
+            },
+            ".nav-dropdown .link": {
+              "padding": "0 0.3em !important",
+              "margin": "0.667em 1em !important"
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem"
+            },
+            ".nav-link": {
+              "position": "relative"
+            },
+            ".container": {
+              "display": "flex",
+              "margin": "auto",
+              "& when not (@collapsed)": {
+                "@media (min-width: 992px)": {
+                  "flex-wrap": "nowrap"
+                }
+              }
+            },
+            ".iconfont-wrapper": {
+              "color": "@iconsColor !important",
+              "font-size": "1.5rem",
+              "padding-right": "0.5rem"
+            },
+            ".navbar-caption": {},
+            ".navbar-nav": {},
+            ".dropdown-menu, .navbar.opened": {
+              "background": "@menuBgColor !important"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-right": "0.5rem",
+                "vertical-align": "sub",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "70px",
+              "transition": "all 0.3s",
+              "border-bottom": "1px solid transparent",
+              "&:not(.navbar-short)": {},
+              "& when not (@transparent)": {
+                "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)",
+                "background": "@menuBgColor"
+              },
+              "& when (@transparent)": {
+                "position": "absolute",
+                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
+              },
+              "&.opened": {
+                "transition": "all 0.3s"
+              },
+              ".dropdown-item": {
+                "padding": "0.5rem 1.8rem"
+              },
+              ".navbar-logo img": {
+                "width": "auto"
+              },
+              ".navbar-collapse": {
+                "justify-content": "flex-end",
+                "z-index": "1"
+              },
+              "&.collapsed": {
+                "justify-content": "center",
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "41%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-right": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "40%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word",
+                  "padding-right": "2rem"
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "&.navbar-short": {
+                "min-height": "60px",
+                ".navbar-logo": {
+                  "img": {
+                    "height": "2.5rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "min-height": "60px",
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "min-height": "70px",
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "10px 0",
+              "transition": "all 0.3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center",
+              "min-width": "170px"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all 0.2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all 0.2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all 0.2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              },
+              "&:nth-child(2)": {
+                "transform": "rotate(45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(3)": {
+                "transform": "rotate(-45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": "0 1rem",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            ".icons-menu": {
+              "flex-wrap": "nowrap",
+              "display": "flex",
+              "justify-content": "center",
+              "padding-left": "1rem",
+              "padding-right": "1rem",
+              "padding-top": "0.3rem",
+              "text-align": "center"
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "70px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~\"+\" 2rem)",
+                "left": "-1rem"
+              }
+            }
+          },
+          "_name": "menu2",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu2\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                    'navbar-expand-lg':!collapsed,\n                    'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobiri.se\">\n                        <img src=\"../_images/logo.png\" alt=\"Mobirise Website Builder\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">My Website</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#header3-4\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">HOME&nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"page1.html#top\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">My Minecraft Server&nbsp;</a></li>\n                    \n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"page2.html#contacts1-n\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Contacts</a>\n                    </li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://www.instagram.com/mananrewri09/\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        Download Now</a>\n                </div>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "t4c3kGH1Df",
+          "_anchor": "menu2-i",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-iconfont": {
+              "display": "block",
+              "font-size": "5rem",
+              "color": "@primaryColor",
+              "margin-bottom": "2rem"
+            },
+            ".card-wrapper": {
+              "padding": "3rem",
+              "background": "@cardColor",
+              "border-radius": "4px"
+            },
+            "@media (max-width: 992px)": {
+              ".card-wrapper": {
+                "margin-bottom": "2rem"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".card-wrapper": {
+                "padding": "3rem 1rem"
+              }
+            }
+          },
+          "_name": "contacts1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"contacts1\" group=\"Contacts\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Cards</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showCardTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Link\" name=\"showLink\" checked>\n        <input type=\"color\" title=\"BG\" name=\"cardColor\" value=\"#fafafa\" selected>\n        <input type=\"checkbox\" title=\"Icon\" name=\"showIcon\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"text\" title=\"Fallback Image\" name=\"videoToImageOnMobile\" condition=\"overlay && bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\" video-to-image-on-mobile=\"{{videoToImageOnMobile}}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                <b>Contacts</b>\n            </h3>\n            <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">My Phone Number and My Email</h4>\n        </div>\n        <div class=\"row justify-content-center mt-4\">\n            <div class=\"card col-12 col-lg-6\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <div class=\"image-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont mobi-mbri-letter mobi-mbri\" mbr-if=\"showIcon\"></span>\n                        </div>\n                        <h4 class=\"card-title mbr-fonts-style mb-2\" mbr-theme-style=\"display-2\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">\n                            <b>Email</b>\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style mb-2\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            We will reply as soon as possible</p>\n                        <h5 class=\"link mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showLink\" data-app-selector=\".link\">mananrewri33@gmail.com</h5>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12 col-lg-6\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <div class=\"image-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont mobi-mbri-mobile-2 mobi-mbri\" mbr-if=\"showIcon\"></span>\n                        </div>\n                        <h4 class=\"card-title mbr-fonts-style align-center mb-2\" mbr-theme-style=\"display-2\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">\n                            <b>Phone</b>\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style mb-2\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Call me between 6:00 PM&nbsp; TO 7:00 PM From Monday To Friday</p>\n                        <h5 class=\"link mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showLink\" data-app-selector=\".link\">+91 8053641827</h5>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t4cekcyk8D",
+          "_anchor": "contacts1-n",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            ".mbr-overlay": {
+              "background-color": "@overlayColor",
+              "opacity": "@overlayOpacity"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "form": {
+              ".mbr-section-btn": {
+                "text-align": "center",
+                "width": "100%",
+                ".btn": {
+                  "display": "inline-flex",
+                  "@media (max-width: 991px)": {
+                    "width": "100%"
+                  }
+                }
+              }
+            }
+          },
+          "_name": "form5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"form5\" group=\"Forms\" plugins=\"formstyler, datepicker\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"(overlay && bg.type=='image')\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>Messege me using email</b></h3>\n            <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">IF You want to ask me something then messege me</h4>\n        </div>\n        <div class=\"row justify-content-center mt-4\">\n            <div mbr-form class=\"col-lg-8 mx-auto mbr-form\">\n                <form action=\"mananrewri33@gmail.com\" name=\"Form Name\" method=\"POST\" class=\"mbr-form form-with-styler\" data-verified=\"mananrewri33@gmail.com\">\n                    <div class=\"row\">\n                        <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling this form i will contant you as soon as possible</div>\n                        <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">\n                            Oops...! some problem!\n                        </div>\n                    </div>\n                    <div class=\"dragArea row\">\n                        <div class=\"col-md col-sm-12 form-group mb-3\" data-for=\"name\">\n                            <input type=\"text\" name=\"name\" placeholder=\"Your Name\" data-form-field=\"name\" class=\"form-control\" value>\n                        </div>\n                        <div class=\"col-md col-sm-12 form-group mb-3\" data-for=\"email\">\n                            <input type=\"email\" name=\"email\" placeholder=\"Your EMAIL\" data-form-field=\"email\" class=\"form-control\" value>\n                        </div>\n                        <div class=\"col-12 form-group mb-3\" data-for=\"url\" hidden=\"hidden\">\n                            <input type=\"url\" name=\"url\" data-form-field=\"url\" class=\"form-control\" value hidden=\"hidden\">\n                        </div>\n                        <div class=\"col-12 form-group mb-3\" data-for=\"textarea\">\n                            <textarea name=\"textarea\" placeholder=\"Messege\" data-form-field=\"textarea\" class=\"form-control\"></textarea>\n                        </div>\n                        <div mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" class=\"col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn\">\n                            <a type=\"submit\" class=\"btn btn-primary\">Send message</a>\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "form5-w",
+          "_isUserblock": true,
+          "_cid": "t4cs65O4xr",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_sourceTheme": "mobirise5",
+          "_styles": {
+            ".progress-container": {
+              "z-index": "20000",
+              "position": "fixed",
+              "width": "100%",
+              "height": "(@LineHeight * 1px)",
+              "background": "@BckColor",
+              "top": "(@TopLine * 1px)"
+            },
+            ".progress-bar": {
+              "height": "(@LineHeight * 1px)",
+              "background": "@Linecolor",
+              "width": "0%"
+            },
+            "& when (@Stickyzen2 = false)": {
+              ".sticky2": {
+                "position": "fixed",
+                "top": "0px",
+                "width": "100%"
+              }
+            },
+            "& when (@Stickyzen2)": {
+              ".sticky2": {
+                "position": "fixed",
+                "top": "(@TopLine2 * 1px)",
+                "width": "100%"
+              }
+            },
+            ".hidden": {
+              "display": "none"
+            },
+            "H10": {
+              "color": "#767676"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" mbr-id=\"_anchor\" class=\"_customHTML\">\n \n  \n     <mbr-parameters>\n<hr><header>Scroll Indicator</header>\n        \n       <input type=\"color\" title=\"Background Color\" name=\"BckColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Line Color\" name=\"Linecolor\" value=\"#000000\">\n       <input type=\"range\" title=\"Line Height\" name=\"LineHeight\" min=\"1\" max=\"15\" step=\"1\" value=\"5\">\n        <input type=\"range\" title=\"Top Position\" name=\"TopLine\" min=\"0\" max=\"300\" step=\"1\" value=\"0\">\n      <input type=\"checkbox\" title=\"Sticky\" name=\"Stickyzen2\" checked=\"\">\n       <input type=\"range\" title=\"Top Position 2\" name=\"TopLine2\" min=\"0\" max=\"300\" step=\"1\" value=\"0\" condition=\"Stickyzen2\">\n    </mbr-parameters> \n \n  <div class=\"progress-container\" id=\"myHeader\">\n    <div class=\"progress-bar\" id=\"myBar\"></div>\n  </div>      \n  \n<script type=\"text/javascript\">\nwindow.onscroll = function() {myFunction()};\nvar header = document.getElementById(\"myHeader\");\n// Get the offset position of the navbar\nvar sticky = header.offsetTop;\nfunction myFunction() {\n  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;\n  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;\n  var scrolled = (winScroll / height) * 100;\n  document.getElementById(\"myBar\").style.width = scrolled + \"%\";\n  \n   if (window.pageYOffset > sticky) {\n    header.classList.add(\"sticky2\");\n  } else {\n    header.classList.remove(\"sticky2\");\n  }\n  \n  \n}\n \n        \n</script>\n\n <div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <h10> <br><br><br><br><br><br>Scroll Indicator - Progress bar<br>\n        Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.<br><br><svg id=\"svg\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"150\" viewBox=\"0, 0, 400,383.33333333333337\"><g id=\"svgg\"><path id=\"path0\" d=\"M37.210 6.152 C 35.603 6.521,34.673 7.586,34.092 9.720 C 33.330 12.516,33.825 95.736,34.612 97.241 C 35.870 99.644,28.382 99.467,134.420 99.600 C 199.138 99.681,231.925 99.852,232.882 100.115 C 235.440 100.816,235.350 101.661,230.295 124.449 C 224.368 151.170,212.070 208.952,209.422 222.521 C 207.800 230.833,207.905 232.790,209.971 232.790 C 211.891 232.790,209.325 235.910,254.122 179.099 C 277.812 149.054,289.953 133.596,295.689 126.174 C 297.890 123.327,306.521 112.368,314.870 101.822 C 367.957 34.759,386.363 11.054,386.765 9.224 C 387.073 7.820,386.446 6.596,385.169 6.111 C 383.972 5.656,39.193 5.697,37.210 6.152 M382.917 8.569 C 384.519 9.741,380.855 14.580,323.489 87.057 C 313.389 99.818,299.260 117.766,292.092 126.942 C 279.051 143.636,265.977 160.258,245.456 186.236 C 239.439 193.853,229.856 206.001,224.162 213.231 C 210.292 230.840,210.188 230.897,212.490 219.587 C 217.028 197.295,227.371 148.754,232.598 125.216 C 237.896 101.359,238.065 99.524,235.099 97.991 C 234.120 97.484,228.193 97.405,188.034 97.358 C 75.294 97.227,37.576 96.911,36.978 96.092 C 36.161 94.974,36.161 10.490,36.978 9.373 C 37.513 8.642,38.883 8.626,116.843 8.435 C 301.952 7.984,382.171 8.024,382.917 8.569 M81.622 108.821 C 107.636 108.875,150.091 108.875,175.966 108.821 C 201.840 108.766,180.556 108.722,128.667 108.722 C 76.779 108.722,55.608 108.766,81.622 108.821 M177.885 157.718 C 177.182 158.404,174.020 162.244,170.860 166.251 C 167.700 170.259,164.939 173.732,164.724 173.970 C 164.509 174.207,161.918 177.468,158.965 181.217 C 156.012 184.965,150.834 191.512,147.459 195.767 C 144.084 200.021,139.856 205.359,138.063 207.629 C 129.342 218.668,112.627 239.779,108.533 244.926 C 107.162 246.650,103.624 251.125,100.671 254.870 C 97.718 258.615,93.156 264.369,90.533 267.657 C 87.910 270.944,79.126 282.263,71.012 292.809 C 62.899 303.356,50.820 318.802,44.170 327.133 C 28.112 347.253,23.297 353.336,21.093 356.284 C 20.566 356.990,18.921 359.133,17.439 361.046 C 6.762 374.827,3.520 379.694,4.240 380.859 C 4.652 381.526,352.012 381.883,353.760 381.218 L 354.749 380.843 354.547 336.442 C 354.330 288.424,354.421 291.066,352.956 290.282 C 351.831 289.680,309.260 289.563,226.846 289.934 C 183.386 290.130,157.086 289.826,155.238 289.106 C 153.350 288.370,153.375 288.079,156.655 272.483 C 157.410 268.897,158.183 265.187,158.374 264.238 C 159.208 260.094,161.885 247.419,162.221 246.021 C 162.651 244.231,164.430 235.954,166.258 227.229 C 166.966 223.854,167.895 219.453,168.324 217.450 C 168.753 215.446,169.619 211.390,170.249 208.437 C 170.879 205.484,171.843 200.997,172.391 198.466 C 172.938 195.935,173.542 193.087,173.734 192.138 C 173.925 191.189,174.694 187.478,175.444 183.893 C 181.253 156.107,181.424 154.270,177.885 157.718 M334.899 284.838 C 335.479 284.926,336.429 284.926,337.009 284.838 C 337.589 284.751,337.114 284.679,335.954 284.679 C 334.794 284.679,334.319 284.751,334.899 284.838 \" stroke=\"none\" fill=\"#b3b3b3\" fill-rule=\"evenodd\"></path><path id=\"path1\" d=\"M116.843 8.435 C 38.883 8.626,37.513 8.642,36.978 9.373 C 36.161 10.490,36.161 94.974,36.978 96.092 C 37.576 96.911,75.294 97.227,188.034 97.358 C 228.193 97.405,234.120 97.484,235.099 97.991 C 238.065 99.524,237.896 101.359,232.598 125.216 C 227.371 148.754,217.028 197.295,212.490 219.587 C 210.188 230.897,210.292 230.840,224.162 213.231 C 229.856 206.001,239.439 193.853,245.456 186.236 C 265.977 160.258,279.051 143.636,292.092 126.942 C 299.260 117.766,313.389 99.818,323.489 87.057 C 380.855 14.580,384.519 9.741,382.917 8.569 C 382.171 8.024,301.952 7.984,116.843 8.435 \" stroke=\"none\" fill=\"#4c4c4c\" fill-rule=\"evenodd\"></path><path id=\"path2\" d=\"M24.582 1.208 C 24.285 2.061,24.165 16.987,24.175 52.119 C 24.189 104.381,24.198 104.667,25.856 107.198 C 27.312 109.419,21.600 109.300,126.819 109.300 C 187.817 109.300,223.202 109.435,223.202 109.666 C 223.202 109.868,221.385 118.791,219.165 129.496 C 216.944 140.200,215.208 149.171,215.308 149.431 C 215.408 149.690,215.358 149.957,215.197 150.023 C 214.865 150.160,213.651 155.819,204.600 199.407 C 201.952 212.158,199.872 222.815,199.977 223.088 C 200.082 223.362,199.980 223.586,199.752 223.586 C 199.516 223.586,199.414 223.996,199.516 224.531 C 199.615 225.051,199.582 225.526,199.442 225.586 C 199.151 225.710,198.557 228.337,196.119 240.268 C 195.171 244.909,194.060 250.029,193.650 251.646 C 191.455 260.308,193.965 264.453,200.009 262.145 C 201.966 261.398,201.889 261.486,213.429 246.788 C 220.801 237.399,226.824 229.751,236.050 218.064 C 240.748 212.113,252.094 197.659,269.799 175.072 C 275.255 168.111,284.303 156.570,289.907 149.425 C 295.511 142.279,303.979 131.474,308.725 125.414 C 321.361 109.277,325.827 103.583,336.629 89.833 C 342.331 82.576,346.237 77.280,346.078 77.022 C 345.919 76.764,345.976 76.688,346.216 76.836 C 346.447 76.979,347.760 75.626,349.227 73.732 C 350.658 71.885,353.101 68.781,354.656 66.833 C 356.329 64.739,357.370 63.109,357.206 62.843 C 357.041 62.576,357.094 62.496,357.336 62.646 C 357.872 62.977,368.666 49.199,368.315 48.632 C 368.164 48.388,368.223 48.310,368.450 48.451 C 368.674 48.589,373.706 42.505,379.897 34.608 C 385.973 26.858,392.261 18.965,393.871 17.066 C 395.480 15.168,397.517 12.693,398.398 11.567 L 400.000 9.519 400.000 4.759 L 400.000 0.000 212.502 0.000 L 25.003 0.000 24.582 1.208 M385.169 6.111 C 386.446 6.596,387.073 7.820,386.765 9.224 C 386.363 11.054,367.957 34.759,314.870 101.822 C 306.521 112.368,297.890 123.327,295.689 126.174 C 289.953 133.596,277.812 149.054,254.122 179.099 C 209.325 235.910,211.891 232.790,209.971 232.790 C 207.905 232.790,207.800 230.833,209.422 222.521 C 212.070 208.952,224.368 151.170,230.295 124.449 C 235.350 101.661,235.440 100.816,232.882 100.115 C 231.925 99.852,199.138 99.681,134.420 99.600 C 28.382 99.467,35.870 99.644,34.612 97.241 C 33.825 95.736,33.330 12.516,34.092 9.720 C 34.673 7.586,35.603 6.521,37.210 6.152 C 39.193 5.697,383.972 5.656,385.169 6.111 M175.966 108.821 C 150.091 108.875,107.636 108.875,81.622 108.821 C 55.608 108.766,76.779 108.722,128.667 108.722 C 180.556 108.722,201.840 108.766,175.966 108.821 M180.735 144.991 C 179.413 145.394,178.766 146.116,171.634 155.164 C 166.035 162.266,160.321 169.481,152.304 179.573 C 148.329 184.577,145.792 188.088,145.958 188.357 C 146.118 188.615,146.070 188.703,145.844 188.563 C 145.295 188.224,144.060 189.684,144.413 190.256 C 144.585 190.533,144.541 190.624,144.307 190.478 C 143.770 190.147,136.792 198.920,137.142 199.485 C 137.301 199.742,137.247 199.823,137.013 199.678 C 136.474 199.345,127.972 210.042,128.323 210.610 C 128.476 210.857,128.426 210.944,128.208 210.810 C 127.996 210.679,125.945 212.939,123.650 215.832 C 121.355 218.726,116.830 224.412,113.595 228.469 C 110.061 232.902,107.824 236.025,107.991 236.295 C 108.151 236.554,108.103 236.641,107.877 236.502 C 107.327 236.162,106.092 237.623,106.445 238.194 C 106.613 238.465,106.574 238.562,106.354 238.426 C 106.145 238.297,104.765 239.694,103.288 241.531 C 96.608 249.837,76.645 275.196,70.771 282.838 C 67.204 287.478,62.325 293.824,59.929 296.939 C 57.436 300.180,55.688 302.790,55.842 303.039 C 55.996 303.289,55.941 303.369,55.712 303.227 C 55.170 302.893,54.322 303.975,54.676 304.549 C 54.843 304.818,54.798 304.908,54.569 304.766 C 54.020 304.427,52.785 305.888,53.138 306.459 C 53.307 306.733,53.266 306.827,53.039 306.686 C 52.524 306.368,45.925 314.778,46.261 315.323 C 46.416 315.573,46.348 315.638,46.095 315.482 C 45.595 315.173,22.023 344.549,22.104 345.380 C 22.133 345.675,22.027 345.837,21.868 345.738 C 21.392 345.444,20.226 346.987,20.539 347.494 C 20.712 347.773,20.668 347.862,20.431 347.716 C 20.071 347.493,14.984 353.821,7.143 364.244 C 5.466 366.473,4.298 368.371,4.451 368.618 C 4.610 368.875,4.551 368.949,4.308 368.799 C 4.071 368.653,3.080 369.715,1.982 371.294 L 0.069 374.044 0.025 378.776 L -0.020 383.509 180.335 383.509 L 360.690 383.509 360.580 337.776 C 360.460 288.005,360.498 288.865,358.312 286.446 C 355.732 283.591,359.250 283.754,301.092 283.791 C 272.531 283.809,249.028 283.908,248.862 284.010 C 247.895 284.608,161.482 283.949,160.872 283.340 C 160.729 283.196,161.071 280.888,161.632 278.211 C 162.193 275.534,162.558 273.098,162.443 272.798 C 162.327 272.497,162.365 272.333,162.526 272.433 C 162.687 272.532,163.297 270.255,163.881 267.371 C 164.465 264.488,167.099 252.044,169.734 239.719 C 172.369 227.393,174.442 217.093,174.340 216.829 C 174.239 216.565,174.296 216.294,174.468 216.228 C 174.932 216.048,176.895 206.412,176.573 205.891 C 176.400 205.611,176.462 205.545,176.738 205.716 C 177.004 205.880,177.181 205.740,177.181 205.367 C 177.181 205.025,178.123 200.312,179.274 194.894 C 183.691 174.105,185.667 164.276,185.737 162.744 C 185.777 161.869,185.963 161.247,186.149 161.360 C 186.336 161.474,186.409 161.024,186.312 160.361 C 186.214 159.699,186.256 159.156,186.405 159.156 C 186.650 159.156,187.185 156.010,187.710 151.486 C 188.291 146.478,185.225 143.623,180.735 144.991 M180.249 158.438 C 180.249 160.249,178.966 167.046,175.444 183.893 C 174.694 187.478,173.925 191.189,173.734 192.138 C 173.542 193.087,172.938 195.935,172.391 198.466 C 171.843 200.997,170.879 205.484,170.249 208.437 C 169.619 211.390,168.753 215.446,168.324 217.450 C 167.895 219.453,166.966 223.854,166.258 227.229 C 164.430 235.954,162.651 244.231,162.221 246.021 C 161.885 247.419,159.208 260.094,158.374 264.238 C 158.183 265.187,157.410 268.897,156.655 272.483 C 153.375 288.079,153.350 288.370,155.238 289.106 C 157.086 289.826,183.386 290.130,226.846 289.934 C 309.260 289.563,351.831 289.680,352.956 290.282 C 354.421 291.066,354.330 288.424,354.547 336.442 L 354.749 380.843 353.760 381.218 C 352.012 381.883,4.652 381.526,4.240 380.859 C 3.520 379.694,6.762 374.827,17.439 361.046 C 18.921 359.133,20.566 356.990,21.093 356.284 C 23.297 353.336,28.112 347.253,44.170 327.133 C 50.820 318.802,62.899 303.356,71.012 292.809 C 79.126 282.263,87.910 270.944,90.533 267.657 C 93.156 264.369,97.718 258.615,100.671 254.870 C 103.624 251.125,107.162 246.650,108.533 244.926 C 112.627 239.779,129.342 218.668,138.063 207.629 C 139.856 205.359,144.084 200.021,147.459 195.767 C 150.834 191.512,156.012 184.965,158.965 181.217 C 161.918 177.468,164.509 174.207,164.724 173.970 C 164.939 173.732,167.700 170.259,170.860 166.251 C 179.198 155.678,180.249 154.803,180.249 158.438 M337.009 284.838 C 336.429 284.926,335.479 284.926,334.899 284.838 C 334.319 284.751,334.794 284.679,335.954 284.679 C 337.114 284.679,337.589 284.751,337.009 284.838\" stroke=\"none\" fill=\"#fafafa\" fill-rule=\"evenodd\"></path></g></svg><br><br><br></h10>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_anchor": "design-block-y",
+          "_isUserblock": true,
+          "_cid": "t4ctvGudO7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_sourceTheme": "mobirise5",
+          "_styles": {
+            "input, textarea, button, select, a": {
+              "-webkit-tap-highlight-color": "rgba(0, 0, 0, 0)"
+            },
+            ".wrap": {
+              "position": "fixed",
+              "display": "flex",
+              "flex-wrap": "wrap",
+              "justify-content": "center",
+              "align-items": "center",
+              "width": "100%",
+              "bottom": "50",
+              "right": "0",
+              "padding-right": "20px",
+              "background-color": "@barColorSelect",
+              "z-index": "2",
+              "visibility": "visible"
+            },
+            ".copyright": {
+              "position": "fixed",
+              "z-index": "1",
+              "visibility": "visible",
+              "margin-left": "10px",
+              "left": "0",
+              "padding-left": "20px"
+            },
+            "@media (min-width: 768px)": {
+              ".wrap": {
+                "justify-content": "flex-end"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".wrap": {
+                "justify-content": "space-around",
+                "padding-right": "0px"
+              },
+              ".copyright": {
+                "visibility": "hidden"
+              }
+            },
+            ".item": {
+              "border-radius": "50%",
+              "font-size": "30px",
+              "font-height": "100%",
+              "text-align": "center",
+              "vertical-align": "middle",
+              "padding": "10px",
+              "margin-top": "10px",
+              "margin-left": "5px",
+              "margin-right": "5px",
+              "margin-bottom": "10px"
+            },
+            ".hidden": {
+              "display": "none"
+            },
+            "& when (@preview)": {
+              ".wrap": {
+                "visibility": "hidden",
+                "z-index": "0",
+                "display": "block !important"
+              },
+              ".copyright": {
+                "visibility": "hidden"
+              }
+            },
+            ".show": {
+              "visibility": "visible !important",
+              "bottom": "0"
+            },
+            "& when not (@barColor)": {
+              ".wrap": {
+                "background-color": "transparent !important"
+              },
+              ".mbr-section-subtitle": {
+                "visibility": "hidden"
+              }
+            },
+            "& when not (@copyright)": {
+              ".mbr-section-subtitle": {
+                "visibility": "hidden"
+              }
+            },
+            "& when (@transparent)": {
+              "@media (max-width: 768px)": {
+                ".wrap": {
+                  "background-color": "transparent !important"
+                }
+              }
+            },
+            ".mbr-section-subtitle": {
+              "color": "#ffffff"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" group=\"Footers\">\n\n<mbr-parameters>\n<input type=\"checkbox\" title=\"Hide in editor\" name=\"preview\">\n<input type=\"range\" inline=\"\" title=\"Buttons\" name=\"items\" min=\"1\" max=\"5\" value=\"1\" step=\"1\">\n<input type=\"color\" title=\"Bg Button 1\" name=\"bgColor5\" value=\"#e43f3f\" condition=\"items > 0\">\n<input type=\"color\" title=\"Bg Button 2\" name=\"bgColor4\" value=\"#0084ff\" condition=\"items > 1\">\n<input type=\"color\" title=\"Bg Button 3\" name=\"bgColor3\" value=\"#3b5999\" condition=\"items > 2\">\n<input type=\"color\" title=\"Bg Button 4\" name=\"bgColor2\" value=\"#d93175\" condition=\"items > 3\">\n<input type=\"color\" title=\"Bg Button 5\" name=\"bgColor1\" value=\"#55acee\" condition=\"items > 4\">\n<input type=\"checkbox\" title=\"Bar Color\" name=\"barColor\" checked=\"\">\n<input type=\"color\" title=\"Select\" name=\"barColorSelect\" value=\"#1e2228\" condition=\"barColor == true\">\n<input type=\"checkbox\" title=\"Transparent in mobile\" name=\"transparent\" condition=\"barColor == true\">\n<input type=\"checkbox\" title=\"Show Copyright\" name=\"copyright\" condition=\"barColor == true\" checked=\"\">\n</mbr-parameters>\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:4rem; color: #ffffff; background-color:#000000;\">Footer Bar 🡇 You can hide in editor ⚙ to avoid overlap</div>\n\n<div mbr-class=\"{'show': isPublish}\" class=\"wrap\">\n\n<h3 data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style copyright\" mbr-theme-style=\"display-7\">Coded with ❤ by <a href=\"https://instagram.com/mananrewri09\" target=\"_blank\">Manan</a> ©2022 </h3>\n\n<a mbr-icon=\"\" class=\"item mbr-iconfont socicon-twitter socicon\" target=\"_blank\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255); background-color:{{bgColor1}}\" href=\"#\" mbr-if=\"items > 4\"></a>\n\n<a mbr-icon=\"\" class=\"item mbr-iconfont socicon-instagram socicon\" target=\"_blank\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255); background-color:{{bgColor2}}\" href=\"#\" mbr-if=\"items > 3\"></a>\n\n<a mbr-icon=\"\" class=\"item mbr-iconfont socicon-facebook socicon\" target=\"_blank\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255); background-color:{{bgColor3}}\" href=\"#\" mbr-if=\"items > 2\"></a>\n\n<a mbr-icon=\"\" class=\"item mbr-iconfont socicon-messenger socicon\" target=\"_blank\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255); background-color:{{bgColor4}}\" href=\"#\" mbr-if=\"items > 1\"></a>\n\n<a mbr-icon=\"\" class=\"item mbr-iconfont socicon-instagram socicon\" target=\"_blank\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255); background-color:{{bgColor5}}\" href=\"https://instagram.com/mananrewri09\" mbr-if=\"items > 0\"></a>\n\n</div>\n\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "design-block-u",
+          "_isUserblock": true,
+          "_cid": "t4cp8BSP17",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
